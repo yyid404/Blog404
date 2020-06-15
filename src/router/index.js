@@ -30,6 +30,11 @@ export default new Router({
       path: '/Timeline',
       name: 'Timeline',
       component: () => import('../components/photograph/Timeline.vue'),
+    },
+    {
+      path: '/Artist',
+      name: 'Artist',
+      component: () => import('../components/music/Artist.vue'),
     }
   ]
 })

@@ -1,0 +1,25 @@
+{
+  "status": true,
+  "namemap": {
+    "China": "China",
+    "Japan": "Japan",
+    "United States": "America"
+  },
+  "dataArr": [
+    {
+      "name": "China",
+      "value": 8,
+      "detail": "王菲/齐豫/王若琳/房东的猫/谢安琪/吴雨霏/卫兰/陈奕迅"
+    },
+    {
+      "name": "Japan",
+      "value": 2,
+      "detail": "小野丽莎/手嶌葵"
+    },
+    {
+      "name": "America",
+      "value": 5,
+      "detail": "Norah Jones/Rachael Yamagata/Stacey Kent/Keren Ann/Billie Eilish"
+    }
+  ]
+}
