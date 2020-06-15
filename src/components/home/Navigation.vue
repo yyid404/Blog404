@@ -2,7 +2,7 @@
   <div class="menu">
     <router-view></router-view>
     <el-menu
-        :default-active="activeIndex2"
+        :default-active="$route.path"
         class="el-menu-demo"
         router
         mode="horizontal"
@@ -16,6 +16,7 @@
           <el-menu-item index="/Favorite">FAVORITE</el-menu-item>
           <el-menu-item index="/Album">ALBUM</el-menu-item>
           <el-menu-item index="/Timeline">TIMELINE</el-menu-item>
+          <el-menu-item index="/Photographer">PHOTOGRAPHER</el-menu-item>
         </el-submenu>
         <el-submenu index="3">
           <template slot="title">MUSIC</template>

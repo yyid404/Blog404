@@ -56,7 +56,7 @@
     data() {
       return {
         fits: ['fill', 'contain', 'cover', 'none', 'scale-down'],
-        url: 'https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/bg-banner.jpg'
+        url: 'https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/background-banner-1.jpg'
       }
     }
   }

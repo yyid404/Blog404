@@ -2,7 +2,7 @@
   <div class="container">
     <el-container>
       <el-header height="191px">
-        <div class="info">
+<!--        <div class="info">
           <div class="margin-top">
           </div>
           <el-row class="demo-avatar demo-basic">
@@ -22,16 +22,17 @@
             404 Not Found
           </div>
         </div>
+-->
       </el-header>
       <div class="menu">
         <router-view></router-view>
         <el-menu
-          :default-active="activeIndex2"
+          :default-active="$route.path"
           class="el-menu-demo"
           router
           mode="horizontal"
           @select="handleSelect"
-          background-color="#7B6F93"
+          background-color="#ada9b6"
           text-color="#F4D0D8"
           active-text-color="whitesmoke">
           <el-menu-item index="/Home">HOME</el-menu-item>
@@ -40,6 +41,7 @@
             <el-menu-item index="/Favorite">FAVORITE</el-menu-item>
             <el-menu-item index="/Album">ALBUM</el-menu-item>
             <el-menu-item index="/Timeline">TIMELINE</el-menu-item>
+            <el-menu-item index="/Photographer">PHOTOGRAPHER</el-menu-item>
           </el-submenu>
           <el-submenu index="3">
             <template slot="title">MUSIC</template>
@@ -66,24 +68,72 @@
       <div class="map">
         <div id="worldMap" style="height:300px;width:100%;" ref="myEchart"></div>
       </div>
+      <el-divider class="line"></el-divider>
       <div class="content">
-        <el-row :gutter="5">
-          <el-col :span="8">
-            <div class="img">
-              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-7.jpg">
-            </div>
-          </el-col>
-          <el-col :span="8">
-            <div class="img">
-              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-5.jpg">
-            </div>
-          </el-col>
-          <el-col :span="8">
-            <div class="img">
-              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-12.jpg">
-            </div>
-          </el-col>
-        </el-row>
+        <div class="singer" @click="detail">
+          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E7%8E%8B%E8%8F%B2-1.jpg">
+          <span>王菲</span>
+        </div>
+        <div class="singer" @click="detail">
+          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-Norah%20Jones-1.jpg">
+          <span>Norah Jones</span>
+        </div>
+        <div class="singer" @click="detail">
+          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-Rachael%20Yamagata-1.jpg">
+          <span>Rachael Yamagata</span>
+        </div>
+        <div class="singer" @click="detail">
+          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E5%B0%8F%E9%87%8E%E4%B8%BD%E8%8E%8E-1.jpg">
+          <span>小野丽莎</span>
+        </div>
+        <div class="singer" @click="detail">
+          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-Stacey%20Kent-1.jpg">
+          <span>Stacey Kent</span>
+        </div>
+        <div class="singer" @click="detail">
+          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E7%8E%8B%E8%8B%A5%E7%90%B3-3.jpg">
+          <span>王若琳</span>
+        </div>
+        <div class="singer" @click="detail">
+          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-Keren%20Ann-3.jpg">
+          <span>Keren Ann</span>
+        </div>
+        <div class="singer" @click="detail">
+          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-Billie%20Eilish-1.jpg">
+          <span>Billie Eilish</span>
+        </div>
+        <div class="singer" @click="detail">
+          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-Madilyn%20Bailey-1.jpg">
+          <span>Madilyn Bailey</span>
+        </div>
+        <div class="singer" @click="detail">
+          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E6%88%BF%E4%B8%9C%E7%9A%84%E7%8C%AB-2.jpg">
+          <span>房东的猫</span>
+        </div>
+        <div class="singer" @click="detail">
+          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E9%BD%90%E8%B1%AB-2.jpg">
+          <span>齐豫</span>
+        </div>
+        <div class="singer" @click="detail">
+          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E6%89%8B%E5%B6%8C%E8%91%B5-1.jpg">
+          <span>手嶌葵</span>
+        </div>
+        <div class="singer" @click="detail">
+          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E8%B0%A2%E5%AE%89%E7%90%AA-1.jpg">
+          <span>谢安琪</span>
+        </div>
+        <div class="singer" @click="detail">
+          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E5%90%B4%E9%9B%A8%E9%9C%8F-1.jpg">
+          <span>吴雨霏</span>
+        </div>
+        <div class="singer" @click="detail">
+          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E5%8D%AB%E5%85%B0-1.jpg">
+          <span>卫兰</span>
+        </div>
+        <div class="singer" @click="detail">
+          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E9%99%88%E5%A5%95%E8%BF%85-1.jpg">
+          <span>陈奕迅</span>
+        </div>
       </div>
       <el-footer height="30px">分页</el-footer>
     </el-container>
@@ -101,7 +151,7 @@
     data () {
       return {
         circleUrl: "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
-        squareUrl: "https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/avatar.jpg",
+        squareUrl: "https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/user/user-avatar-Lemon.jpg",
         activeIndex2: '1'
       }
     },
@@ -126,7 +176,7 @@
           myChart.resize()
         })
         var option= {
-          backgroundColor: '#F5F7F8',  //设置背景颜色
+          backgroundColor: '#ebebec',  //设置背景颜色
           title: {
             show:false,
             text: '世界地图',
@@ -229,8 +279,10 @@
           console.log(dataIndex);
         });
 
+        //=================改成点击地图后，进入相应的子地图，并在下面的div显示相应的歌手图片，可逐级进入+显示=================
+        //点击事件，以下实现的是点击进入到相应的子地图
         myChart.on('click', function (countryName) {
-          if(countryName.name=="China"||countryName.name=="福建"||countryName.name=="安徽"||countryName.name=="新疆"||countryName.name=="西藏"){
+          if(countryName.name=="China"){
             var option = myChart.getOption();
             option.series[0].map = countryName.name.toLowerCase();
             option.series[0].mapType  = countryName.name;
@@ -241,6 +293,9 @@
             alert(countryName.name+"这个区域暂时没有喔");
           }
         });
+      },
+      detail(){
+        window.location.href='https://www.baidu.com/';
       }
     },
     created () {
@@ -252,15 +307,16 @@
 
 <style scoped>
   .container{
-    background-color: #F5F7F8;
+    background-color: #ebebec;
   }
 
   .el-header {
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/banner.jpg");
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/background-banner-music-1.jpg");
     background-size: auto 100%;
     line-height: 0px;
   }
 
+/*
   .margin-top{
     height: 20px;
   }
@@ -283,9 +339,10 @@
     color: whitesmoke;
     text-align: center;
   }
+*/
 
   .menu{
-    background-color: #7B6F93;
+    background-color: #ada9b6;
     opacity: 100%;
     display:flex;
     justify-content:center;
@@ -296,23 +353,54 @@
   }
 
   .content{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 36px;
+    margin-right: 36px;
+    margin-bottom: 50px;
   }
 
-  img{
-    width: 100%;
-    margin-bottom: 1px;
+  .singer{
+    background-color: white;
+    width: 200px;
+    height: 385px;
+    display: block;
+    float: left;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 0.5em;
+    border:0.5px solid #dfdcdc;
+    box-shadow: #ccc 0px 2px 5px;
+  }
 
+  .singer-img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+  }
+
+  .el-divider--horizontal{
+    margin: 1px 0;
+    background: 0 0;
+    border-top: 2px solid white;
+  }
+
+  span {
+    font-weight:bold;
+    color:black;
+    display: block;
+    text-align: center;
   }
 
   .el-footer {
-    background-color: #B3C0D1;
-    color: #333;
+    background-color: #ada9b6;
+    color: white;
     text-align: center;
     line-height: 30px;
+/*
+    opacity: 60%;
     position: fixed;
+*/
     bottom: 0px;
     width: 100%;
   }
 </style>
+
