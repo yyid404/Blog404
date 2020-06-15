@@ -63,25 +63,88 @@
           <el-menu-item index="/CONTACT">CONTACT</el-menu-item>
         </el-menu>
       </div>
-      <el-row :gutter="20">
-        <el-col :span="8">
-          <div class="grid-content bg-purple">
-            <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/bg-banner.jpg" width=100%>
-            <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/bg-banner.jpg" width=100%>
-            <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/bg-banner.jpg" width=100%>
-          </div>
-        </el-col>
-        <el-col :span="8">
-          <div class="grid-content bg-purple">
-
-          </div>
-        </el-col>
-        <el-col :span="8">
-          <div class="grid-content bg-purple">
-
-          </div>
-        </el-col>
-      </el-row>
+      <div class="content">
+        <el-row :gutter="5">
+          <el-col :span="8">
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-7.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-4.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-25.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-17.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-18.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-2.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-1.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-3.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-16.jpg">
+            </div>
+          </el-col>
+          <el-col :span="8">
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-5.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-6.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-10.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-9.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-26.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-8.jpg">
+            </div>
+          </el-col>
+          <el-col :span="8">
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-12.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-11.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-15.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-13.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-19.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-20.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-21.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-22.jpg">
+            </div>
+            <div class="img">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph-14.jpg">
+            </div>
+          </el-col>
+        </el-row>
+      </div>
       <el-footer height="30px">分页</el-footer>
     </el-container>
   </div>
@@ -105,6 +168,10 @@
 </script>
 
 <style scoped>
+  .container{
+    background-color: black;
+  }
+
   .el-header {
     background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/banner.jpg");
     background-size: auto 100%;
@@ -114,6 +181,11 @@
   .margin-top{
     height: 20px;
   }
+
+  .el-row {
+    margin-bottom: 20px;
+  }
+
   .demo-avatar{
     width: 100px;
     margin: 0 auto 10px auto;
@@ -136,6 +208,17 @@
     justify-content:center;
   }
 
+  .content{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  img{
+    width: 100%;
+    margin-bottom: 1px;
+
+  }
+
   .el-footer {
     background-color: #B3C0D1;
     color: #333;
@@ -144,45 +227,5 @@
     position: fixed;
     bottom: 0px;
     width: 100%;
-  }
-
-  body > .el-container {
-    margin-bottom: 40px;
-  }
-
-  .el-container:nth-child(5) .el-aside,
-  .el-container:nth-child(6) .el-aside {
-    line-height: 260px;
-  }
-
-  .el-container:nth-child(7) .el-aside {
-    line-height: 320px;
-  }
-
-  .el-row {
-    margin-bottom: 20px;
-  &:last-child {
-     margin-bottom: 0;
-   }
-  }
-  .el-col {
-    border-radius: 4px;
-  }
-  .bg-purple-dark {
-    background: #99a9bf;
-  }
-  .bg-purple {
-    background: #d3dce6;
-  }
-  .bg-purple-light {
-    background: #e5e9f2;
-  }
-  .grid-content {
-    border-radius: 4px;
-    min-height: 36px;
-  }
-  .row-bg {
-    padding: 10px 0;
-    background-color: red;
   }
 </style>
