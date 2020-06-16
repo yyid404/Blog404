@@ -35,6 +35,11 @@ export default new Router({
       path: '/Artist',
       name: 'Artist',
       component: () => import('../components/music/Artist.vue'),
+    },
+    {
+      path: '/Daily',
+      name: 'Daily',
+      component: () => import('../components/daily/Daily.vue'),
     }
   ]
 })

@@ -35,8 +35,8 @@
           <el-menu-item index="/Front-End">Front-End</el-menu-item>
           <el-menu-item index="/ALGORITHM">ALGORITHM</el-menu-item>
         </el-submenu>
-        <el-menu-item index="/DAILY">DAILY</el-menu-item>
-        <el-menu-item index="/ABOUT">ABOUT</el-menu-item>
+          <el-menu-item index="/READING">READING</el-menu-item>
+          <el-menu-item index="/DAILY">DAILY</el-menu-item>
         <el-menu-item index="/CONTACT">CONTACT</el-menu-item>
       </el-menu>
     </div>

@@ -2,7 +2,7 @@
   <div class="container">
     <el-container>
       <el-header height="191px">
-<!--        <div class="info">
+        <div class="info">
           <div class="margin-top">
           </div>
           <el-row class="demo-avatar demo-basic">
@@ -22,7 +22,6 @@
             404 Not Found
           </div>
         </div>
--->
       </el-header>
       <div class="menu">
         <router-view></router-view>
@@ -60,8 +59,8 @@
             <el-menu-item index="/Front-End">Front-End</el-menu-item>
             <el-menu-item index="/ALGORITHM">ALGORITHM</el-menu-item>
           </el-submenu>
+          <el-menu-item index="/READING">READING</el-menu-item>
           <el-menu-item index="/DAILY">DAILY</el-menu-item>
-          <el-menu-item index="/ABOUT">ABOUT</el-menu-item>
           <el-menu-item index="/CONTACT">CONTACT</el-menu-item>
         </el-menu>
       </div>
@@ -316,7 +315,6 @@
     line-height: 0px;
   }
 
-/*
   .margin-top{
     height: 20px;
   }
@@ -327,7 +325,7 @@
 
   .demo-avatar{
     width: 100px;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 20px auto;
   }
   .nickname{
     color: whitesmoke;
@@ -339,7 +337,6 @@
     color: whitesmoke;
     text-align: center;
   }
-*/
 
   .menu{
     background-color: #ada9b6;
@@ -392,7 +389,7 @@
 
   .el-footer {
     background-color: #ada9b6;
-    color: white;
+    color: #F4D0D8;
     text-align: center;
     line-height: 30px;
 /*
