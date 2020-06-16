@@ -69,6 +69,7 @@
           <el-timeline-item timestamp="2020/6/16" placement="top">
             <el-card>
               <h4>UPDATE photograph</h4>
+              <img class="timeline-pic" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-1.jpg">
               <p>Commit by Lemon 2020/6/16 20:46</p>
             </el-card>
             <el-divider><i class="el-icon-camera"></i></el-divider>
@@ -176,6 +177,11 @@
   .content{
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .timeline-pic{
+    width: 300px;
+    height: 100%;
   }
 
   .el-footer {
