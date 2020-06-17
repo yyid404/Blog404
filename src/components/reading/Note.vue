@@ -32,8 +32,8 @@
             router
             mode="horizontal"
             @select="handleSelect"
-            background-color="#73aec4"
-            text-color="#f9f177"
+            background-color="#72B6A7"
+            text-color="#f3d2ab"
             active-text-color="white">
             <el-menu-item index="/Home">HOME</el-menu-item>
             <el-submenu index="2">
@@ -70,47 +70,6 @@
           </el-menu>
         </div>
         <div class="content">
-          <el-timeline>
-            <el-timeline-item timestamp="2020/6/16" placement="top">
-              <el-card>
-                <h4>UPDATE photograph</h4>
-                <img class="timeline-pic" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-1.jpg">
-                <p>Commit by Lemon 2020/6/16 20:46</p>
-              </el-card>
-              <el-divider><i class="el-icon-camera"></i></el-divider>
-              <el-card>
-                <h4>UPDATE music</h4>
-                <p>Commit by Lemon 2020/6/16 19:46</p>
-              </el-card>
-              <el-divider><i class="el-icon-headset"></i></el-divider>
-            </el-timeline-item>
-            <el-timeline-item timestamp="2020/6/15" placement="top">
-              <el-card>
-                <h4>UPDATE movie</h4>
-                <p>Commit by Lemon 2020/6/15 20:46</p>
-              </el-card>
-              <el-divider><i class="el-icon-video-camera"></i></el-divider>
-            </el-timeline-item>
-            <el-timeline-item timestamp="2020/6/14" placement="top">
-              <el-card>
-                <h4>UPDATE code</h4>
-                <p>Commit by Lemon 2020/6/14 20:46</p>
-              </el-card>
-              <el-divider><i class="el-icon-monitor"></i></el-divider>
-              <el-card>
-                <h4>UPDATE reading</h4>
-                <p>Commit by Lemon 2020/6/14 20:46</p>
-              </el-card>
-              <el-divider><i class="el-icon-notebook-1"></i></el-divider>
-            </el-timeline-item>
-            <el-timeline-item timestamp="2020/6/13" placement="top">
-              <el-card>
-                <h4>UPDATE daily</h4>
-                <p>Commit by Lemon 2020/6/13 20:46</p>
-              </el-card>
-              <el-divider><i class="el-icon-edit"></i></el-divider>
-            </el-timeline-item>
-          </el-timeline>
         </div>
         <el-footer height="30px">分页</el-footer>
       </div>
@@ -120,7 +79,7 @@
 
 <script>
   export default {
-    name: 'Daily',
+    name: 'Reading',
     data () {
       return {
         circleUrl: "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
@@ -142,7 +101,7 @@
   }
 
   .el-header {
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-banner-daily-1.jpg");
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-banner-reading-1.jpg");
     background-size: auto 100%;
     line-height: 0px;
   }
@@ -171,30 +130,24 @@
   }
 
   .container-content{
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-background-daily-2.jpg");
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-background-reading-1.jpg");
     background-size: 450px;
   }
 
   .menu{
-    background-color: #73aec4;
+    background-color: #72B6A7;
     opacity: 70%;
     display:flex;
     justify-content:center;
   }
 
   .content{
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .timeline-pic{
-    width: 300px;
-    height: 100%;
+    height: 2000px;
   }
 
   .el-footer {
-    background-color: #73aec4;
-    color: #f9f177;
+    background-color: #72B6A7;
+    color: #f3d2ab;
     text-align: center;
     line-height: 30px;
     /*

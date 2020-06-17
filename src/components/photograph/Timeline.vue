@@ -32,8 +32,8 @@
           mode="horizontal"
           @select="handleSelect"
           background-color="black"
-          text-color="grey"
-          active-text-color="whitesmoke">
+          text-color="#b0b0b0"
+          active-text-color="white">
           <el-menu-item index="/Home">HOME</el-menu-item>
           <el-submenu index="2">
             <template slot="title">PHOTOGRAPH</template>
@@ -59,14 +59,18 @@
             <el-menu-item index="/Front-End">Front-End</el-menu-item>
             <el-menu-item index="/ALGORITHM">ALGORITHM</el-menu-item>
           </el-submenu>
-          <el-menu-item index="/READING">READING</el-menu-item>
+          <el-submenu index="6">
+            <template slot="title">READING</template>
+            <el-menu-item index="/NOTE">NOTE</el-menu-item>
+            <el-menu-item index="/AUTHOR">AUTHOR</el-menu-item>
+          </el-submenu>
           <el-menu-item index="/DAILY">DAILY</el-menu-item>
           <el-menu-item index="/CONTACT">CONTACT</el-menu-item>
         </el-menu>
       </div>
       <div class="content">
         <el-timeline>
-          <el-timeline-item timestamp="2020/6/16" placement="top" color="#8D1516">
+          <el-timeline-item timestamp="2020/6/16" placement="top" color="#547047">
               <h4>夏日光景</h4>
               <img class="timeline-pic" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-15.jpg">
               <img class="timeline-pic" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-13.jpg">
@@ -120,7 +124,7 @@
   }
 
   .el-header {
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/background-banner-1.jpg");
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-banner-photograph-1.jpg");
     background-size: auto 100%;
     line-height: 0px;
   }
@@ -186,7 +190,7 @@
 
   .el-footer {
     background-color: black;
-    color: grey;
+    color: #b0b0b0;
     text-align: center;
     line-height: 30px;
     /*
@@ -194,5 +198,6 @@
     */
     bottom: 0px;
     width: 100%;
+    opacity: 100%;
   }
 </style>

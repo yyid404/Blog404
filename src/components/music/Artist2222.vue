@@ -18,7 +18,7 @@
     methods: {
       getWorld () {
         var that = this
-        axios.get('/static/world.json').then(function (res) {
+        axios.get('/static/world-singer.json').then(function (res) {
           let namemap = res.data.namemap
           let dataArr = res.data.dataArr
           that.drawChart(namemap, dataArr)

@@ -15,12 +15,12 @@
 
 <style scoped>
   .el-carousel__item:nth-child(2n) {
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/background-cover-1.jpg");
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-cover-dark-1.jpg");
     background-size: 100% auto;
     position: fixed;
   }
   .el-carousel__item:nth-child(2n+1) {
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/background-cover-2.jpg");
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-cover-light-1.jpg");
     background-size: 100% auto;
     position: fixed;
   }

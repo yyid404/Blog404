@@ -73,69 +73,9 @@
       </div>
       <el-divider class="line"></el-divider>
       <div class="content">
-        <div class="singer" @click="detail">
-          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E7%8E%8B%E8%8F%B2-1.jpg">
-          <span>王菲</span>
-        </div>
-        <div class="singer" @click="detail">
-          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-Norah%20Jones-1.jpg">
-          <span>Norah Jones</span>
-        </div>
-        <div class="singer" @click="detail">
-          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-Rachael%20Yamagata-1.jpg">
-          <span>Rachael Yamagata</span>
-        </div>
-        <div class="singer" @click="detail">
-          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E5%B0%8F%E9%87%8E%E4%B8%BD%E8%8E%8E-1.jpg">
-          <span>小野丽莎</span>
-        </div>
-        <div class="singer" @click="detail">
-          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-Stacey%20Kent-1.jpg">
-          <span>Stacey Kent</span>
-        </div>
-        <div class="singer" @click="detail">
-          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E7%8E%8B%E8%8B%A5%E7%90%B3-3.jpg">
-          <span>王若琳</span>
-        </div>
-        <div class="singer" @click="detail">
-          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-Keren%20Ann-3.jpg">
-          <span>Keren Ann</span>
-        </div>
-        <div class="singer" @click="detail">
-          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-Billie%20Eilish-1.jpg">
-          <span>Billie Eilish</span>
-        </div>
-        <div class="singer" @click="detail">
-          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-Madilyn%20Bailey-1.jpg">
-          <span>Madilyn Bailey</span>
-        </div>
-        <div class="singer" @click="detail">
-          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E6%88%BF%E4%B8%9C%E7%9A%84%E7%8C%AB-2.jpg">
-          <span>房东的猫</span>
-        </div>
-        <div class="singer" @click="detail">
-          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E9%BD%90%E8%B1%AB-2.jpg">
-          <span>齐豫</span>
-        </div>
-        <div class="singer" @click="detail">
-          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E6%89%8B%E5%B6%8C%E8%91%B5-1.jpg">
-          <span>手嶌葵</span>
-        </div>
-        <div class="singer" @click="detail">
-          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E8%B0%A2%E5%AE%89%E7%90%AA-1.jpg">
-          <span>谢安琪</span>
-        </div>
-        <div class="singer" @click="detail">
-          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E5%90%B4%E9%9B%A8%E9%9C%8F-1.jpg">
-          <span>吴雨霏</span>
-        </div>
-        <div class="singer" @click="detail">
-          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E5%8D%AB%E5%85%B0-1.jpg">
-          <span>卫兰</span>
-        </div>
-        <div class="singer" @click="detail">
-          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E9%99%88%E5%A5%95%E8%BF%85-1.jpg">
-          <span>陈奕迅</span>
+        <div class="director" @click="detail">
+          <img class="director-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/director/director-%E7%8E%8B%E5%AE%B6%E5%8D%AB-1.jpg">
+          <span>王家卫</span>
         </div>
       </div>
       <el-footer height="30px">分页</el-footer>
@@ -150,7 +90,7 @@
   require('echarts/map/js/world') // 引入世界地图数据
 
   export default {
-    name: 'Artist',
+    name: 'Director',
     data () {
       return {
         circleUrl: "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
@@ -167,7 +107,7 @@
       },
       worldmap() {
         var that = this
-        axios.get('/static/world-singer.json').then(function (res) {
+        axios.get('/static/world-director.json').then(function (res) {
           let namemap = res.data.namemap
           let dataArr = res.data.dataArr
           that.drawChart(namemap, dataArr)
@@ -240,40 +180,40 @@
             data: data,
           }]
         };
-/*
-        // 定时显示提示框和高亮效果
-        let index = -1
-        setInterval(function () {
-          // 隐藏提示框
-          chart.dispatchAction({
-            type: 'hideTip',
-            seriesIndex: 0,
-            dataIndex: index
-          })
-          // 显示提示框
-          chart.dispatchAction({
-            type: 'showTip',
-            seriesIndex: 0,
-            dataIndex: index + 1
-          })
-          // 取消高亮指定的数据图形
-          chart.dispatchAction({
-            type: 'downplay',
-            seriesIndex: 0,
-            dataIndex: index
-          })
-          // 高亮指定的数据图形
-          chart.dispatchAction({
-            type: 'highlight',
-            seriesIndex: 0,
-            dataIndex: index + 1
-          })
-          index++
-          if (index > data.length - 1) {
-            index = -1
-          }
-        }, 2000)
-*/
+        /*
+                // 定时显示提示框和高亮效果
+                let index = -1
+                setInterval(function () {
+                  // 隐藏提示框
+                  chart.dispatchAction({
+                    type: 'hideTip',
+                    seriesIndex: 0,
+                    dataIndex: index
+                  })
+                  // 显示提示框
+                  chart.dispatchAction({
+                    type: 'showTip',
+                    seriesIndex: 0,
+                    dataIndex: index + 1
+                  })
+                  // 取消高亮指定的数据图形
+                  chart.dispatchAction({
+                    type: 'downplay',
+                    seriesIndex: 0,
+                    dataIndex: index
+                  })
+                  // 高亮指定的数据图形
+                  chart.dispatchAction({
+                    type: 'highlight',
+                    seriesIndex: 0,
+                    dataIndex: index + 1
+                  })
+                  index++
+                  if (index > data.length - 1) {
+                    index = -1
+                  }
+                }, 2000)
+        */
         //使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 
@@ -344,11 +284,6 @@
     text-align: center;
   }
 
-  .container-content{
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-background-daily-2.jpg");
-    background-size: 450px;
-  }
-
   .menu{
     background-color: #ada9b6;
     opacity: 100%;
@@ -366,7 +301,7 @@
     margin-bottom: 50px;
   }
 
-  .singer{
+  .director{
     background-color: white;
     width: 200px;
     height: 385px;
@@ -379,7 +314,7 @@
     box-shadow: #ccc 0px 2px 5px;
   }
 
-  .singer-img {
+  .director-img {
     width: 100%;
     height: auto;
     border-radius: 0.5em;
@@ -403,9 +338,9 @@
     color: #F4D0D8;
     text-align: center;
     line-height: 30px;
-/*
-    position: fixed;
-*/
+    /*
+        position: fixed;
+    */
     bottom: 0px;
     width: 100%;
     opacity: 100%;
