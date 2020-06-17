@@ -32,8 +32,8 @@
             router
             mode="horizontal"
             @select="handleSelect"
-            background-color="black"
-            text-color="#b0b0b0"
+            background-color="#73aec4"
+            text-color="#f9f177"
             active-text-color="white">
             <el-menu-item index="/Home">HOME</el-menu-item>
             <el-submenu index="2">
@@ -97,7 +97,7 @@
 
 <style scoped>
   .container{
-    background-color: black;
+    background-color: #f1f5f6;
   }
 
   .el-header {
@@ -135,7 +135,7 @@
   }
 
   .menu{
-    background-color: black;
+    background-color: #73aec4;
     opacity: 70%;
     display:flex;
     justify-content:center;
@@ -146,8 +146,8 @@
   }
 
   .el-footer {
-    background-color: black;
-    color: #b0b0b0;
+    background-color: #73aec4;
+    color: #f9f177;
     text-align: center;
     line-height: 30px;
     /*

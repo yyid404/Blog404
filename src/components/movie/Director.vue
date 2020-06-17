@@ -23,53 +23,55 @@
           </div>
         </div>
       </el-header>
-      <div class="menu">
-        <router-view></router-view>
-        <el-menu
-          :default-active="$route.path"
-          class="el-menu-demo"
-          router
-          mode="horizontal"
-          @select="handleSelect"
-          background-color="#ada9b6"
-          text-color="#F4D0D8"
-          active-text-color="white">
-          <el-menu-item index="/Home">HOME</el-menu-item>
-          <el-submenu index="2">
-            <template slot="title">PHOTOGRAPH</template>
-            <el-menu-item index="/Favorite">FAVORITE</el-menu-item>
-            <el-menu-item index="/Album">ALBUM</el-menu-item>
-            <el-menu-item index="/Timeline">TIMELINE</el-menu-item>
-            <el-menu-item index="/Photographer">PHOTOGRAPHER</el-menu-item>
-          </el-submenu>
-          <el-submenu index="3">
-            <template slot="title">MUSIC</template>
-            <el-menu-item index="/ARTIST">ARTIST</el-menu-item>
-            <el-menu-item index="/PLAYLIST">PLAYLIST</el-menu-item>
-          </el-submenu>
-          <el-submenu index="4">
-            <template slot="title">MOVIE</template>
-            <el-menu-item index="/DIRECTOR">DIRECTOR</el-menu-item>
-            <el-menu-item index="/LIST">LIST</el-menu-item>
-          </el-submenu>
-          <el-submenu index="5">
-            <template slot="title">CODE</template>
-            <el-menu-item index="/Java">Java</el-menu-item>
-            <el-menu-item index="/Go">Go</el-menu-item>
-            <el-menu-item index="/Front-End">Front-End</el-menu-item>
-            <el-menu-item index="/ALGORITHM">ALGORITHM</el-menu-item>
-          </el-submenu>
-          <el-submenu index="6">
-            <template slot="title">READING</template>
-            <el-menu-item index="/NOTE">NOTE</el-menu-item>
-            <el-menu-item index="/AUTHOR">AUTHOR</el-menu-item>
-          </el-submenu>
-          <el-menu-item index="/DAILY">DAILY</el-menu-item>
-          <el-menu-item index="/CONTACT">CONTACT</el-menu-item>
-        </el-menu>
-      </div>
-      <div class="map">
-        <div id="worldMap" style="height:300px;width:100%;" ref="myEchart"></div>
+      <div class="container-content">
+        <div class="menu">
+          <router-view></router-view>
+          <el-menu
+            :default-active="$route.path"
+            class="el-menu-demo"
+            router
+            mode="horizontal"
+            @select="handleSelect"
+            background-color="#d7afce"
+            text-color="#eae0ee"
+            active-text-color="white">
+            <el-menu-item index="/Home">HOME</el-menu-item>
+            <el-submenu index="2">
+              <template slot="title">PHOTOGRAPH</template>
+              <el-menu-item index="/Favorite">FAVORITE</el-menu-item>
+              <el-menu-item index="/Album">ALBUM</el-menu-item>
+              <el-menu-item index="/Timeline">TIMELINE</el-menu-item>
+              <el-menu-item index="/Photographer">PHOTOGRAPHER</el-menu-item>
+            </el-submenu>
+            <el-submenu index="3">
+              <template slot="title">MUSIC</template>
+              <el-menu-item index="/ARTIST">ARTIST</el-menu-item>
+              <el-menu-item index="/PLAYLIST">PLAYLIST</el-menu-item>
+            </el-submenu>
+            <el-submenu index="4">
+              <template slot="title">MOVIE</template>
+              <el-menu-item index="/DIRECTOR">DIRECTOR</el-menu-item>
+              <el-menu-item index="/LIST">LIST</el-menu-item>
+            </el-submenu>
+            <el-submenu index="5">
+              <template slot="title">CODE</template>
+              <el-menu-item index="/Java">Java</el-menu-item>
+              <el-menu-item index="/Go">Go</el-menu-item>
+              <el-menu-item index="/Front-End">Front-End</el-menu-item>
+              <el-menu-item index="/ALGORITHM">ALGORITHM</el-menu-item>
+            </el-submenu>
+            <el-submenu index="6">
+              <template slot="title">READING</template>
+              <el-menu-item index="/NOTE">NOTE</el-menu-item>
+              <el-menu-item index="/AUTHOR">AUTHOR</el-menu-item>
+            </el-submenu>
+            <el-menu-item index="/DAILY">DAILY</el-menu-item>
+            <el-menu-item index="/CONTACT">CONTACT</el-menu-item>
+          </el-menu>
+        </div>
+        <div class="map">
+          <div id="worldMap" style="height:300px;width:100%;" ref="myEchart"></div>
+        </div>
       </div>
       <el-divider class="line"></el-divider>
       <div class="content">
@@ -119,7 +121,9 @@
           myChart.resize()
         })
         var option= {
+/*
           backgroundColor: '#ebebec',  //设置背景颜色
+*/
           title: {
             show:false,
             text: '世界地图',
@@ -145,7 +149,7 @@
               {start: 6, end: 10},
               {start: 0, end: 6},
             ],
-            color: ['#884EA0', '#9B59B6', '#AF7AC5']
+            color: ['#c318a5', '#bf64be', '#e88bcb']
             //具体数量会读data中对应的value，我们这里使用了json文件代替List<Map>类型的data
           },
           //配置属性
@@ -169,9 +173,9 @@
             },
             // 地图区域的多边形 图形样式
             itemStyle: {
-              areaColor: '#D7BDE2', // 地图区域的颜色 如果设置了visualMap，areaColor属性将不起作用
+              areaColor: '#c39fbd', // 地图区域的颜色 如果设置了visualMap，areaColor属性将不起作用
               borderWidth: 1, // 描边线宽 为 0 时无描边
-              borderColor: '#EBDEF0', // 图形的描边颜色 支持的颜色格式同 color，不支持回调函数
+              borderColor: '#f4daf0', // 图形的描边颜色 支持的颜色格式同 color，不支持回调函数
               borderType: 'solid' // 描边类型，默认为实线，支持 'solid', 'dashed', 'dotted'
             },
             // 自定义地区的名称映射
@@ -250,11 +254,11 @@
 
 <style scoped>
   .container{
-    background-color: #ebebec;
+    background-color: #efe9f2;
   }
 
   .el-header {
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-banner-music-1.jpg");
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-banner-movie-1.jpg");
     background-size: auto 100%;
     line-height: 0px;
   }
@@ -284,9 +288,14 @@
     text-align: center;
   }
 
+  .container-content{
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-background-movie-1.jpg");
+    background-size: 450px;
+  }
+
   .menu{
-    background-color: #ada9b6;
-    opacity: 100%;
+    background-color: #d7afce;
+    opacity: 70%;
     display:flex;
     justify-content:center;
   }
@@ -334,8 +343,8 @@
   }
 
   .el-footer {
-    background-color: #ada9b6;
-    color: #F4D0D8;
+    background-color: #d7afce;
+    color: #eae0ee;
     text-align: center;
     line-height: 30px;
     /*
@@ -343,7 +352,6 @@
     */
     bottom: 0px;
     width: 100%;
-    opacity: 100%;
+    opacity: 70%;
   }
 </style>
-
