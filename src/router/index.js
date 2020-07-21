@@ -87,9 +87,19 @@ export default new Router({
       component: () => import('../components/reading/Author.vue'),
     },
     {
-      path: '/Daily',
-      name: 'Daily',
-      component: () => import('../components/daily/Daily.vue'),
+      path: '/Journal',
+      name: 'Journal',
+      component: () => import('../components/daily/Journal.vue'),
+    },
+    {
+      path: '/Kittens',
+      name: 'Kittens',
+      component: () => import('../components/daily/Kittens.vue'),
+    },
+    {
+      path: '/Travel',
+      name: 'Travel',
+      component: () => import('../components/daily/Travel.vue'),
     },
     {
       path: '/Contact',

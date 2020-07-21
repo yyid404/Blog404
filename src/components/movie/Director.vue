@@ -65,7 +65,12 @@
               <el-menu-item index="/NOTE">NOTE</el-menu-item>
               <el-menu-item index="/AUTHOR">AUTHOR</el-menu-item>
             </el-submenu>
-            <el-menu-item index="/DAILY">DAILY</el-menu-item>
+            <el-submenu index="7">
+              <template slot="title">DAILY</template>
+              <el-menu-item index="/JOURNAL">JOURNAL</el-menu-item>
+              <el-menu-item index="/KITTENS">KITTENS</el-menu-item>
+              <el-menu-item index="/TRAVEL">TRAVEL</el-menu-item>
+            </el-submenu>
             <el-menu-item index="/CONTACT">CONTACT</el-menu-item>
           </el-menu>
         </div>

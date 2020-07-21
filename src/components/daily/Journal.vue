@@ -65,13 +65,18 @@
               <el-menu-item index="/NOTE">NOTE</el-menu-item>
               <el-menu-item index="/AUTHOR">AUTHOR</el-menu-item>
             </el-submenu>
-            <el-menu-item index="/DAILY">DAILY</el-menu-item>
+            <el-submenu index="7">
+              <template slot="title">DAILY</template>
+              <el-menu-item index="/JOURNAL">JOURNAL</el-menu-item>
+              <el-menu-item index="/KITTENS">KITTENS</el-menu-item>
+              <el-menu-item index="/TRAVEL">TRAVEL</el-menu-item>
+            </el-submenu>
             <el-menu-item index="/CONTACT">CONTACT</el-menu-item>
           </el-menu>
         </div>
         <div class="content">
           <el-timeline>
-            <el-timeline-item timestamp="2020/6/16" placement="top">
+            <el-timeline-item timestamp="2020/6/16" placement="top" color="#83A0B9">
               <el-card>
                 <h4>UPDATE photograph</h4>
                 <img class="timeline-pic" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-1.jpg">
@@ -120,7 +125,7 @@
 
 <script>
   export default {
-    name: 'Daily',
+    name: 'Journal',
     data () {
       return {
         circleUrl: "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
@@ -188,8 +193,8 @@
   }
 
   .timeline-pic{
-    width: 300px;
-    height: 100%;
+    width: auto;
+    height: 200px;
   }
 
   .el-footer {

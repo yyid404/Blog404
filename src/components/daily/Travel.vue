@@ -32,8 +32,8 @@
             router
             mode="horizontal"
             @select="handleSelect"
-            background-color="#72B6A7"
-            text-color="#f3d2ab"
+            background-color="#73aec4"
+            text-color="#f9f177"
             active-text-color="white">
             <el-menu-item index="/Home">HOME</el-menu-item>
             <el-submenu index="2">
@@ -80,24 +80,56 @@
       </div>
       <el-divider class="line"></el-divider>
       <div class="content">
-        <div class="author" @click="detail">
-          <img class="author-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/author/author-George%20Orwell-1.jpg">
-          <span>George Orwell</span>
-        </div>
+
       </div>
       <el-footer height="30px">分页</el-footer>
     </el-container>
   </div>
 </template>
+
 <script>
   import axios from 'axios'
+  import '../../../node_modules/echarts/map/js/province/guangdong.js' // 引入广东地图数据
+  import '../../../node_modules/echarts/map/js/province/xianggang.js' // 引入香港地图数据
+  import '../../../node_modules/echarts/map/js/province/aomen.js' // 引入澳门地图数据
+  import '../../../node_modules/echarts/map/js/province/shanghai.js' // 引入上海地图数据
+  import '../../../node_modules/echarts/map/js/province/jiangsu.js' // 引入江苏地图数据
+  import '../../../node_modules/echarts/map/js/province/zhejiang.js' // 引入浙江地图数据
+  import '../../../node_modules/echarts/map/js/province/beijing.js' // 引入北京地图数据
+  import '../../../node_modules/echarts/map/js/province/hunan.js' // 引入湖南地图数据
+  import '../../../node_modules/echarts/map/js/province/hubei.js' // 引入湖北地图数据
+  import '../../../node_modules/echarts/map/js/province/jiangxi.js' // 引入江西地图数据
+  import '../../../node_modules/echarts/map/js/province/chongqing.js' // 引入重庆地图数据
+  import '../../../node_modules/echarts/map/js/province/sichuan.js' // 引入四川地图数据
+  import '../../../node_modules/echarts/map/js/province/guizhou.js' // 引入贵州地图数据
+  import '../../../node_modules/echarts/map/js/province/guangxi.js' // 引入广西地图数据
+  import '../../../node_modules/echarts/map/js/province/heilongjiang.js' // 引入黑龙江地图数据
+  import '../../../node_modules/echarts/map/js/province/anhui.js' // 引入安徽地图数据
+  import '../../../node_modules/echarts/map/js/province/shanxi1.js' // 引入陕西地图数据
+  import '../../../node_modules/echarts/map/js/province/xinjiang.js' // 引入新疆地图数据
+  import '../../../node_modules/echarts/map/js/province/xizang.js' // 引入西藏地图数据
+  import '../../../node_modules/echarts/map/js/province/yunnan.js' // 引入云南地图数据
+  import '../../../node_modules/echarts/map/js/province/qinghai.js' // 引入青海地图数据
+  import '../../../node_modules/echarts/map/js/province/gansu.js' // 引入甘肃地图数据
+  import '../../../node_modules/echarts/map/js/province/neimenggu.js' // 引入内蒙古地图数据
+  import '../../../node_modules/echarts/map/js/province/ningxia.js' // 引入宁夏地图数据
+  import '../../../node_modules/echarts/map/js/province/fujian.js' // 引入福建地图数据
+  import '../../../node_modules/echarts/map/js/province/hainan.js' // 引入海南地图数据
+  import '../../../node_modules/echarts/map/js/province/taiwan.js' // 引入台湾地图数据
+  import '../../../node_modules/echarts/map/js/province/liaoning.js' // 引入辽宁地图数据
+  import '../../../node_modules/echarts/map/js/province/jilin.js' // 引入吉林地图数据
+  import '../../../node_modules/echarts/map/js/province/tianjin.js' // 引入天津地图数据
+  import '../../../node_modules/echarts/map/js/province/shandong.js' // 引入山东地图数据
+  import '../../../node_modules/echarts/map/js/province/shanxi.js' // 引入山西地图数据
+  import '../../../node_modules/echarts/map/js/province/hebei.js' // 引入河北地图数据
+  import '../../../node_modules/echarts/map/js/province/henan.js' // 引入河南地图数据
 
   var echarts = require('echarts/lib/echarts');
   require('echarts/map/js/china') // 引入中国地图数据
   require('echarts/map/js/world') // 引入世界地图数据
 
   export default {
-    name: 'Author',
+    name: 'Travel',
     data () {
       return {
         circleUrl: "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
@@ -114,7 +146,7 @@
       },
       worldmap() {
         var that = this
-        axios.get('/static/world-author.json').then(function (res) {
+        axios.get('/static/world-travel.json').then(function (res) {
           let namemap = res.data.namemap
           let dataArr = res.data.dataArr
           that.drawChart(namemap, dataArr)
@@ -126,9 +158,9 @@
           myChart.resize()
         })
         var option= {
-/*
-          backgroundColor: '#ebebec',  //设置背景颜色
-*/
+          /*
+                    backgroundColor: 'black',  //设置背景颜色
+          */
           title: {
             show:false,
             text: '世界地图',
@@ -141,7 +173,7 @@
             // 提示框浮层内容格式器，支持字符串模板和回调函数两种形式
             // 使用函数模板  传入的数据值 -> value: number | Array
             formatter: function (val) {
-              return val.data.name + ': ' + val.data.detail
+              return
             }
           },
           //左侧小导航图标，根据data中的value显示颜色
@@ -150,11 +182,10 @@
             x: 'left',
             y: 'bottom',
             splitList: [
-              {start: 10, end:20},
-              {start: 6, end: 10},
-              {start: 0, end: 6},
+              {start: 1, end: 1},
+              {start: 0, end: 0},
             ],
-            color: ['#0e675c', '#23766b', '#45887f']
+            color: ['red', 'yellow']
             //具体数量会读data中对应的value，我们这里使用了json文件代替List<Map>类型的data
           },
           //配置属性
@@ -178,9 +209,9 @@
             },
             // 地图区域的多边形 图形样式
             itemStyle: {
-              areaColor: '#a1c6bc', // 地图区域的颜色 如果设置了visualMap，areaColor属性将不起作用
+              areaColor: '#a1b4c6', // 地图区域的颜色 如果设置了visualMap，areaColor属性将不起作用
               borderWidth: 1, // 描边线宽 为 0 时无描边
-              borderColor: '#dce6e3', // 图形的描边颜色 支持的颜色格式同 color，不支持回调函数
+              borderColor: '#ecf0f3', // 图形的描边颜色 支持的颜色格式同 color，不支持回调函数
               borderType: 'solid' // 描边类型，默认为实线，支持 'solid', 'dashed', 'dotted'
             },
             // 自定义地区的名称映射
@@ -234,15 +265,67 @@
         //=================改成点击地图后，进入相应的子地图，并在下面的div显示相应的歌手图片，可逐级进入+显示=================
         //点击事件，以下实现的是点击进入到相应的子地图
         myChart.on('click', function (countryName) {
-          if(countryName.name=="China"){
+          if(countryName.name=="China" ||
+            countryName.name=="广东" ||
+            countryName.name=="江苏" ||
+            countryName.name=="浙江" ||
+            countryName.name=="湖南" ||
+            countryName.name=="湖北" ||
+            countryName.name=="江西" ||
+            countryName.name=="Japan" ||
+            countryName.name=="India" ||
+            countryName.name=="Israel" ||
+            countryName.name=="Turkey" ||
+            countryName.name=="Sri Lanka" ||
+            countryName.name=="Cambodia" ||
+            countryName.name=="Italy" ||
+            countryName.name=="Austria" ||
+            countryName.name=="Hungary" ||
+            countryName.name=="France" ||
+            countryName.name=="United Kingdom" ||
+            countryName.name=="Greece" ||
+            countryName.name=="Russia" ||
+            countryName.name=="Ireland" ||
+            countryName.name=="Czech" ||
+            countryName.name=="Denmark" ||
+            countryName.name=="Iceland" ||
+            countryName.name=="Norway" ||
+            countryName.name=="Germany" ||
+            countryName.name=="Morocco" ||
+            countryName.name=="Egypt" ||
+            countryName.name=="United States of America" ||
+            countryName.name=="Peru" ||
+            countryName.name=="New Zealand"
+          ){
             var option = myChart.getOption();
             option.series[0].map = countryName.name.toLowerCase();
             option.series[0].mapType  = countryName.name;
             myChart.clear();
             console.log(countryName.name);
             myChart.setOption(option,true);
-          }else{
-            alert(countryName.name+"这个区域暂时没有喔");
+          }else if(countryName.name=="珠海市" ||
+            countryName.name=="广州市" ||
+            countryName.name=="深圳市" ||
+            countryName.name=="香港" ||
+            countryName.name=="澳门" ||
+            countryName.name=="上海" ||
+            countryName.name=="南京市" ||
+            countryName.name=="苏州市" ||
+            countryName.name=="杭州市" ||
+            countryName.name=="嘉兴市" ||
+            countryName.name=="北京" ||
+            countryName.name=="长沙市" ||
+            countryName.name=="吉首市" ||
+            countryName.name=="郴州市" ||
+            countryName.name=="衡阳市" ||
+            countryName.name=="常德市" ||
+            countryName.name=="武汉市" ||
+            countryName.name=="萍乡市"
+          ){
+            alert(countryName.name+"没有下一级了喔");
+          }
+          else {
+            alert("暂时没有去"+countryName.name+"的想法喔");
           }
         });
       },
@@ -259,11 +342,11 @@
 
 <style scoped>
   .container{
-    background-color: #EBF0E9;
+    background-color: #f1f5f6;
   }
 
   .el-header {
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-banner-reading-1.jpg");
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-banner-daily-1.jpg");
     background-size: auto 100%;
     line-height: 0px;
   }
@@ -280,13 +363,11 @@
     width: 100px;
     margin: 0 auto 20px auto;
   }
-
   .nickname{
     color: whitesmoke;
     text-align: center;
     height: 25px;
   }
-
   .introduce{
     font-size: 12px;
     color: whitesmoke;
@@ -294,12 +375,12 @@
   }
 
   .container-content{
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-background-reading-1.jpg");
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-background-daily-2.jpg");
     background-size: 450px;
   }
 
   .menu{
-    background-color: #72B6A7;
+    background-color: #73aec4;
     opacity: 70%;
     display:flex;
     justify-content:center;
@@ -315,41 +396,15 @@
     margin-bottom: 50px;
   }
 
-  .author{
-    background-color: white;
-    width: 200px;
-    height: 385px;
-    display: block;
-    float: left;
-    padding: 5px;
-    margin: 20px;
-    border-radius: 0.5em;
-    border:0.5px solid #dfdcdc;
-    box-shadow: #ccc 0px 2px 5px;
-  }
-
-  .author-img {
-    width: 100%;
-    height: auto;
-    border-radius: 0.5em;
-  }
-
   .el-divider--horizontal{
     margin: 1px 0;
     background: 0 0;
     border-top: 2px solid white;
   }
 
-  span {
-    font-weight:bold;
-    color:black;
-    display: block;
-    text-align: center;
-  }
-
   .el-footer {
-    background-color: #72B6A7;
-    color: #f3d2ab;
+    background-color: #73aec4;
+    color: #f9f177;
     text-align: center;
     line-height: 30px;
     /*
@@ -360,4 +415,3 @@
     opacity: 70%;
   }
 </style>
-
