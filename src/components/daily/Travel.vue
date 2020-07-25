@@ -81,9 +81,7 @@
       <el-divider class="line"></el-divider>
       <div class="content">
         <el-row :gutter="20">
-<!--
-          人文类
--->
+<!--人文类-->
           <el-col :span="8">
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-1.jpg">
@@ -136,15 +134,21 @@
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
+              <p class="destination-name">普拉特游乐场</p>
+              <p class="destination-englishname">The Vienna Prater</p>
+              <p class="destination-description">来鬼屋见一见心动的你</p>
+            </div>
+            <div class="destination">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
               <p class="destination-name">王座游乐场</p>
               <p class="destination-englishname">La Foire du Trône</p>
-              <p class="destination-description"></p>
+              <p class="destination-description">来鬼屋见一见心动的你</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
               <p class="destination-name">小丑共和国</p>
               <p class="destination-englishname">au clown de la république</p>
-              <p class="destination-description"></p>
+              <p class="destination-description">眼罩，线索</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-11.jpg">
@@ -153,27 +157,31 @@
               <p class="destination-description">City Of Stars</p>
             </div>
             <div class="destination">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
+              <p class="destination-name">最北邮局</p>
+              <p class="destination-englishname">Christmas Post</p>
+              <p class="destination-description">从中国最北方给你寄一封信</p>
+            </div>
+            <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
               <p class="destination-name">莎士比亚书店</p>
               <p class="destination-englishname">Shakespeare and Company</p>
               <p class="destination-description">久别重逢</p>
             </div>
           </el-col>
-<!--
-            建筑类
--->
+<!--建筑类-->
           <el-col :span="8">
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
               <p class="destination-name">喇荣五明佛学院</p>
               <p class="destination-englishname">Larong Wuming's Buddhist College</p>
-              <p class="destination-description"></p>
+              <p class="destination-description">绛红色 藏式平房 喇嘛和觉姆</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
               <p class="destination-name">马丘比丘</p>
               <p class="destination-englishname">Machu Picchu</p>
-              <p class="destination-description">草泥马天堂</p>
+              <p class="destination-description">世界新七大奇迹，草泥马天堂</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
@@ -185,13 +193,7 @@
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
               <p class="destination-name">色达天葬台</p>
               <p class="destination-englishname"></p>
-              <p class="destination-description"></p>
-            </div>
-            <div class="destination">
-              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
-              <p class="destination-name">坛城</p>
-              <p class="destination-englishname"></p>
-              <p class="destination-description"></p>
+              <p class="destination-description">天葬台的重点不是天葬，而是下面的往生池。当尸体经过那里，喇嘛诵经，灵魂便已离去，剩下的不过是一具肉体而已。</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-17.jpg">
@@ -200,22 +202,28 @@
               <p class="destination-description">下雪天一起去北海道扫街吗</p>
             </div>
             <div class="destination">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-17.jpg">
+              <p class="destination-name">船见坂</p>
+              <p class="destination-englishname">Funemizaka</p>
+              <p class="destination-description">你是千堆雪，我是邮差，怕日出一到彼此瓦解。</p>
+            </div>
+            <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
               <p class="destination-name">安特卫普中央火车站</p>
               <p class="destination-englishname">Antwerp Central Station</p>
-              <p class="destination-description"></p>
+              <p class="destination-description">欧洲最美火车站</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
               <p class="destination-name">舍夫沙万老城</p>
               <p class="destination-englishname">Chefchaouene</p>
-              <p class="destination-description"></p>
+              <p class="destination-description">深蓝，湖蓝，钴蓝，浅蓝，你喜欢的蓝色我都有。</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
               <p class="destination-name">古罗马斗兽场</p>
               <p class="destination-englishname">Colosseo</p>
-              <p class="destination-description"></p>
+              <p class="destination-description">古罗马文明的象征</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
@@ -232,14 +240,14 @@
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
               <p class="destination-name">锡拉库萨大教堂</p>
-              <p class="destination-englishname">Sicily</p>
+              <p class="destination-englishname">Duomo di Siracusa</p>
               <p class="destination-description">如果不去西西里，就像没有到过意大利。</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
               <p class="destination-name">大足石刻</p>
               <p class="destination-englishname">The Dazu Rock Carvings</p>
-              <p class="destination-description"></p>
+              <p class="destination-description">人类石窟艺术史上最后的丰碑</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
@@ -263,7 +271,13 @@
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-1.jpg">
               <p class="destination-name">阿尔贝蒂娜博物馆</p>
               <p class="destination-englishname">Albertina Museum</p>
-              <p class="destination-description">天亮了，新一天的开始意味着就此别过。</p>
+              <p class="destination-description">就像我在你梦里，你在我梦里。天亮了，新一天的开始意味着就此别过。</p>
+            </div>
+            <div class="destination">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-1.jpg">
+              <p class="destination-name">河畔玛丽亚教堂</p>
+              <p class="destination-englishname">St. Mary's on the Bank (Maria Am Gestade)</p>
+              <p class="destination-description">“尽管我一向反对宗教，我却情不自禁地感受到人们带着迷失或者痛苦、罪过，来这里寻找答案，这真让我着迷。一个地方竟然承载着，一代又一代人的痛苦与快乐”。</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
@@ -286,26 +300,32 @@
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-1.jpg">
               <p class="destination-name">无名公墓</p>
-              <p class="destination-englishname">Cemetery of the Nameless</p>
-              <p class="destination-description">每年奥地利的11月1日纪念亡灵的节日，一些来自阿尔伯恩（Albern）地区的渔民通过建造用鲜花装饰的木筏并为多瑙河的受害者留下纪念性的铭文来保持古老的传统。</p>
+              <p class="destination-englishname">Friedhof der Namenlosen</p>
+              <p class="destination-description">每年奥地利的11月1日纪念亡灵的节日，一些来自阿尔伯恩（Albern）地区的渔民通过建造用鲜花装饰的木筏并为多瑙河的受害者留下纪念性的铭文来保持古老的传统。我一直喜欢一个说法，就是他们都是在这个世上走失的人。</p>
+            </div>
+            <div class="destination">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-1.jpg">
+              <p class="destination-name">普拉特游乐场</p>
+              <p class="destination-englishname">The Vienna Prater</p>
+              <p class="destination-description">Are you trying to say you want to kiss me?</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
               <p class="destination-name">绒布寺</p>
-              <p class="destination-englishname"></p>
-              <p class="destination-description"></p>
+              <p class="destination-englishname">Rongbuk Monastery</p>
+              <p class="destination-description">珠峰北麓 绒布冰川末端</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
               <p class="destination-name">古格王朝都城遗址</p>
-              <p class="destination-englishname"></p>
-              <p class="destination-description"></p>
+              <p class="destination-englishname">Site of the Guge Kingdom</p>
+              <p class="destination-description">1630年的一场战争使之灰飞烟灭，销声匿迹。</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
               <p class="destination-name">港珠澳大桥</p>
               <p class="destination-englishname">Hong Kong-Zhuhai-Macao Bridge</p>
-              <p class="destination-description"></p>
+              <p class="destination-description">世界上最长跨海大桥</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
@@ -327,20 +347,24 @@
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
-              <p class="destination-name">巴黎火车北站</p>
+              <p class="destination-name">巴黎北站</p>
               <p class="destination-englishname">Gare du Nord</p>
               <p class="destination-description"></p>
             </div>
             <div class="destination">
-              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
-              <p class="destination-name">梦幻家园</p>
-              <p class="destination-englishname">Menghuan Jiayuan</p>
-              <p class="destination-description"></p>
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
+              <p class="destination-name">纽约中央车站</p>
+              <p class="destination-englishname">Grand Central Terminal</p>
+              <p class="destination-description">Gossip Here, 故事从这里开始。</p>
+            </div>
+            <div class="destination">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
+              <p class="destination-name">日落大道</p>
+              <p class="destination-englishname">SunsetBoulevard</p>
+              <p class="destination-description">从洛杉矶市中心延伸到太平洋海岸公路</p>
             </div>
           </el-col>
-<!--
-            自然风光地质类
--->
+<!--自然风光地质类-->
           <el-col :span="8">
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
@@ -357,20 +381,26 @@
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
               <p class="destination-name">札达土林国家地质公园</p>
-              <p class="destination-englishname"></p>
-              <p class="destination-description"></p>
+              <p class="destination-englishname">Zanda Zong Clay Forest</p>
+              <p class="destination-description">天工万象，无可尽数。</p>
+            </div>
+            <div class="destination">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
+              <p class="destination-name">白桦林</p>
+              <p class="destination-englishname">Zanda Zong Clay Forest</p>
+              <p class="destination-description">如剑戟直向北国长天</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
               <p class="destination-name">海西雅丹魔鬼城</p>
-              <p class="destination-englishname"></p>
+              <p class="destination-englishname">Yadan National Geological Park</p>
               <p class="destination-description"></p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
               <p class="destination-name">茶卡盐湖</p>
               <p class="destination-englishname">Caka Salt Lake</p>
-              <p class="destination-description"></p>
+              <p class="destination-description">天空之镜</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
@@ -386,8 +416,8 @@
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
-              <p class="destination-name">九寨沟</p>
-              <p class="destination-englishname"></p>
+              <p class="destination-name">阿尔山国家森林公园</p>
+              <p class="destination-englishname">Arxan National Forest Park</p>
               <p class="destination-description"></p>
             </div>
             <div class="destination">
@@ -399,26 +429,14 @@
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
               <p class="destination-name">玛旁雍措</p>
-              <p class="destination-englishname"></p>
-              <p class="destination-description"></p>
+              <p class="destination-englishname">Lake Manasarovar</p>
+              <p class="destination-description">永恒不败的碧玉湖</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
-              <p class="destination-name">阿尔山国家森林公园</p>
-              <p class="destination-englishname">Arxan National Forest Park</p>
-              <p class="destination-description"></p>
-            </div>
-            <div class="destination">
-              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
-              <p class="destination-name">海螺沟冰川森林公园</p>
-              <p class="destination-englishname"></p>
-              <p class="destination-description"></p>
-            </div>
-            <div class="destination">
-              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
-              <p class="destination-name">崀山</p>
-              <p class="destination-englishname"></p>
-              <p class="destination-description"></p>
+              <p class="destination-name">九寨沟</p>
+              <p class="destination-englishname">Jiuzhaigou Valley Scenic and Historic Interest Area</p>
+              <p class="destination-description">九寨知秋</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
@@ -429,7 +447,7 @@
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-10.jpg">
               <p class="destination-name">101公路</p>
-              <p class="destination-englishname">101 Freeway</p>
+              <p class="destination-englishname">United States Highway 101</p>
               <p class="destination-description">A Rush</p>
             </div>
             <div class="destination">
@@ -440,26 +458,32 @@
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
-              <p class="destination-name">塞纳河</p>
-              <p class="destination-englishname">La Seine</p>
-              <p class="destination-description">听你讲故事和传说</p>
-            </div>
-            <div class="destination">
-              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
               <p class="destination-name">莫赫悬崖</p>
               <p class="destination-englishname">Cliffs of Moher</p>
               <p class="destination-description">在爱尔兰流传着一个浪漫的传统，在闰年的2月29日，女孩可以向自己心爱的男孩求婚，并且会得到幸福。</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
-              <p class="destination-name">库车大峡谷国家地质公园</p>
-              <p class="destination-englishname"></p>
-              <p class="destination-description"></p>
+              <p class="destination-name">海螺沟冰川森林公园</p>
+              <p class="destination-englishname">Hailuogou</p>
+              <p class="destination-description">红石滩</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
-              <p class="destination-name">石林</p>
-              <p class="destination-englishname"></p>
+              <p class="destination-name">崀山</p>
+              <p class="destination-englishname">Lang Mountain</p>
+              <p class="destination-description"></p>
+            </div>
+            <div class="destination">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
+              <p class="destination-name">塞纳河</p>
+              <p class="destination-englishname">La Seine</p>
+              <p class="destination-description">听你讲故事和传说</p>
+            </div>
+            <div class="destination">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
+              <p class="destination-name">库车大峡谷</p>
+              <p class="destination-englishname">Kuche Grand Canyon</p>
               <p class="destination-description"></p>
             </div>
           </el-col>
