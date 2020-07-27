@@ -84,10 +84,14 @@
 <!--人文类-->
           <el-col :span="8">
             <div class="destination">
+<!--
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/travel/travel-Teuchtler%20Schallplattenhandlung%20u.%20Antiquariat-1.jpg">
-              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/travel/travel-Teuchtler%20Schallplattenhandlung%20u.%20Antiquariat-2.jpg">
+-->
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/travel/travel-Teuchtler%20Schallplattenhandlung%20u.%20Antiquariat-3.jpg">
+              <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/travel/travel-Teuchtler%20Schallplattenhandlung%20u.%20Antiquariat-2.jpg">
+<!--
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/travel/travel-Teuchtler%20Schallplattenhandlung%20u.%20Antiquariat-4.jpg">
+-->
               <p class="destination-name">陶希特唱片行</p>
               <p class="destination-englishname">Teuchtler Schallplattenhandlung u. Antiquariat</p>
               <p class="destination-description">Come Here, 和我一起赴九年之约</p>
@@ -96,8 +100,7 @@
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/travel/travel-Chungking%20Mansions-1.jpg">
               <p class="destination-name">重庆大厦</p>
               <p class="destination-englishname">Chungking Mansions</p>
-              <p class="destination-description">我开始怀疑，在这个世界上，还有什么东西是不会过期的？
-              </p>
+              <p class="destination-description">我开始怀疑，在这个世界上，还有什么东西是不会过期的？</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/travel/travel-Hollywood%20Murals-You%20Are%20the%20Star-1.jpg">
