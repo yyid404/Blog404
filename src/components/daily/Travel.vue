@@ -112,7 +112,9 @@
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/travel/travel-Ao%20Shima-1.jpg">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/travel/travel-Ao%20Shima-2.jpg">
+<!--
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/travel/travel-Ao%20Shima-3.jpg">
+-->
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/travel/travel-Ao%20Shima-4.jpg">
               <p class="destination-name">猫岛</p>
               <p class="destination-englishname">Ao Shima</p>
