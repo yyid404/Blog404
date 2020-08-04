@@ -144,6 +144,10 @@
           <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-%E9%99%88%E5%A5%95%E8%BF%85-1.jpg">
           <span>陈奕迅</span>
         </div>
+        <div class="singer" @click="detail">
+          <img class="singer-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/singer/singer-Coldplay-2.jpg">
+          <span>Coldplay</span>
+        </div>
       </div>
       <el-footer height="30px">分页</el-footer>
     </el-container>
