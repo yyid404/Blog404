@@ -77,6 +77,11 @@ export default new Router({
       component: () => import('../components/code/Algorithm.vue'),
     },
     {
+      path: '/Algorithm-detail',
+      name: 'Algorithm-detail',
+      component: () => import('../components/code/Algorithm-detail.vue'),
+    },
+    {
       path: '/Note',
       name: 'Note',
       component: () => import('../components/reading/Note.vue'),
