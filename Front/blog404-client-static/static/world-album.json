@@ -1,0 +1,104 @@
+{
+  "status": true,
+
+  "namemap": {
+    "China": "China"
+  },
+
+  "dataArr": [
+    {
+      "name": "China",
+      "value": 10
+    },
+    {
+      "name": "广东",
+      "value": 3
+    },
+    {
+      "name": "珠海",
+      "value": 1
+    },
+    {
+      "name": "广州",
+      "value": 1
+    },
+    {
+      "name": "深圳",
+      "value": 1
+    },
+    {
+      "name": "香港",
+      "value": 1
+    },
+    {
+      "name": "澳门",
+      "value": 1
+    },
+    {
+      "name": "上海",
+      "value": 1
+    },
+    {
+      "name": "江苏",
+      "value": 2
+    },
+    {
+      "name": "南京",
+      "value": 1
+    },
+    {
+      "name": "苏州",
+      "value": 1
+    },
+    {
+      "name": "浙江",
+      "value": 2
+    },    {
+      "name": "杭州",
+      "value": 1
+    },    {
+      "name": "嘉兴",
+      "value": 1
+    },
+    {
+      "name": "湖南",
+      "value": 5
+    },
+    {
+      "name": "长沙",
+      "value": 1
+    },
+    {
+      "name": "吉首",
+      "value": 1
+    },
+    {
+      "name": "郴州",
+      "value": 1
+    },
+    {
+      "name": "衡阳",
+      "value": 1
+    },
+    {
+      "name": "常德",
+      "value": 1
+    },
+    {
+      "name": "湖北",
+      "value": 1
+    },
+    {
+      "name": "武汉",
+      "value": 1
+    },
+    {
+      "name": "江西",
+      "value": 1
+    },
+    {
+      "name": "萍乡",
+      "value": 1
+    }
+  ]
+}

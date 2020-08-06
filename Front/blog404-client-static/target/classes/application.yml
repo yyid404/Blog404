@@ -1,0 +1,29 @@
+
+server:
+  port: 8090
+  servlet:
+    context-path: /
+
+
+pagehelper:
+  helper-dialect: mysql
+
+mybatis:
+  type-handlers-package: com.springmall.handler
+
+spring:
+  profiles:
+    active: db
+
+mall:
+  aliyun:
+    access-key-id: LTAI4Fr5gfYhcVjLMqeRGbuT
+    access-secret: IrkcHu6dZyrjPZRushgO76P5392HJ1
+    oss:
+      bucket: Lemon
+      end-point: oss-cn-beijing.aliyuncs.com
+    sms:
+      sign-name: Lemon
+      template-code: SMS_173765187
+      region-id: cn-wuhan
+
