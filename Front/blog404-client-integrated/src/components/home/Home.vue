@@ -37,8 +37,8 @@
         getAdminInfoByAdminId().then(response => {
           localStorage.setItem('admin',JSON.stringify(response.data.data))
         })
-      }
-    }
+      },
+    },
   }
 </script>
 
