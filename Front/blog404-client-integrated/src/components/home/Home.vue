@@ -1,29 +1,23 @@
 <template>
-  <div class="blog">
-    <banner></banner>
-    <avatar></avatar>
-    <navigation></navigation>
+  <div class="container">
+    <Banner></Banner>
+    <Avatar></Avatar>
+    <div class="body">
+    </div>
   </div>
 </template>
 
 <script>
-  import Banner from './home/Banner'
-  import Avatar from './home/Avatar'
-  import Navigation from './home/Navigation'
+  import Banner from '../template/Banner'
+  import Avatar from './Avatar'
   import { getThemeByAdminId } from '@/api/theme'
   import { getAdminInfoByAdminId } from '@/api/admin'
 
   export default {
-    name: 'Home',
+    name: "Home",
     components: {
       Banner,
       Avatar,
-      Navigation
-    },
-    data () {
-      return {
-        activeIndex: '1',
-      }
     },
     created(){
       this.initGlobalTheme()
@@ -48,14 +42,8 @@
 </script>
 
 <style scoped>
-  .blog{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-  }
-  .banner{
-    position: absolute;
-    z-index: -99;
-    width: 100%;
+  /*深度选择器*/
+  .container >>> .info {
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-banner-daily-1.jpg");
   }
 </style>

@@ -1,13 +1,16 @@
 <template>
-
+  <div class="container">
+  </div>
 </template>
 
 <script>
   export default {
-    name: 'PlayList'
+    name: 'PlayList',
   }
 </script>
 
 <style scoped>
-
+  .container{
+    height: 500px;
+  }
 </style>

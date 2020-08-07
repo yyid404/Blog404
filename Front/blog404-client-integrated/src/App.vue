@@ -1,4 +1,3 @@
-<!--
 <template>
   <div id="app">
     <router-view/>
@@ -6,9 +5,9 @@
 </template>
 
 <script>
-export default {
-  name: 'App'
-}
+  export default {
+    name: 'App'
+  }
 </script>
 
 <style>
@@ -23,10 +22,10 @@ export default {
     position: absolute;
   }
 </style>
--->
 
 
 
+<!--
 <template>
   <div class="content">
     <el-container>
@@ -34,7 +33,7 @@ export default {
         <Navigation></Navigation>
       </el-header>
       <el-main>
-        <router-view></router-view> <!--路由出口 -->
+        <router-view></router-view> &lt;!&ndash;路由出口 &ndash;&gt;
       </el-main>
       <el-footer>
         <Footer></Footer>
@@ -65,38 +64,6 @@ export default {
 </script>
 
 <style scoped>
-  .el-header,
-  .el-footer {
-    background-color: #b3c0d1;
-    color: #333;
-    text-align: center;
-    height: 100px;
-    padding: 0px;
-  }
 
-  .el-main {
-    background-color: #e9eef3;
-    color: #333;
-    text-align: center;
-    line-height: 160px;
-  }
-
-  .container{
-    background-color: #f1f5f6;
-  }
-
-  /*深度选择器*/
-  .container >>> .info {
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-banner-daily-1.jpg");
-  }
-
-  .body{
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-background-daily-3.jpg");
-    background-size: 450px;
-  }
-
-  .body >>> .footer {
-    background-color: #73aec4;
-    color: #f9f177;
-  }
 </style>
+-->

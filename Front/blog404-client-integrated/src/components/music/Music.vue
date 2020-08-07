@@ -3,7 +3,7 @@
     <Banner></Banner>
     <div class="content">
       <NavigationBackgroundColor></NavigationBackgroundColor>
-      <Content></Content>
+      <router-view></router-view>
       <Footer></Footer>
     </div>
   </div>
@@ -11,34 +11,37 @@
 
 <script>
   import Banner from '../template/Banner'
-  import NavigationBackgroundColor from '../template/Navigation-Background-Color'
-  import Content from './Contact-Content'
   import Footer from '../template/Footer'
+  import NavigationBackgroundColor from '../template/Navigation-Background-Color'
 
   export default {
-    name: 'Contact',
+    name: 'Music',
     components: {
       Banner,
       NavigationBackgroundColor,
-      Content,
       Footer,
     }
   }
 </script>
 
 <style scoped>
-  /*<Banner>内的<info>*/
+  /*深度选择器 .info为<Banner>内的<info>*/
   .container >>> .info {
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-banner-daily-1.jpg");
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-banner-music-1.jpg");
   }
 
   .content{
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-background-daily-3.jpg");
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-background-music-1.jpg");
     background-size: 450px;
   }
 
   /*<NavigationBackgroundColor>内的<background> & <Footer>内的<footer>*/
   .content >>> .background, .content >>> .footer {
-    background-color: rgba(115,174,196,0.7);
+    background-color: rgba(158,147,182,0.7);
+  }
+
+  /*<router-view>内的<content>*/
+  .content >>> .content {
+    background-color: #efe9f2;
   }
 </style>

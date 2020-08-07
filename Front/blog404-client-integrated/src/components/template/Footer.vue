@@ -10,9 +10,9 @@
 
 <style scoped>
   .footer{
-    text-align: center;
-    line-height: 30px;
+    color: white;
     width: 100%;
-    opacity: 70%;
+    line-height: 30px;
+    text-align: center;
   }
 </style>

@@ -1,14 +1,13 @@
 <template>
   <div class="menu">
-    <router-view></router-view>
     <el-menu
       :default-active="$route.path"
       class="el-menu-demo"
       router
       mode="horizontal"
       @select="handleSelect"
-      background-color="black"
-      text-color="#b0b0b0"
+      background-color="rgba(255,255,255,0.0)"
+      text-color="#a3a3a3"
       active-text-color="white">
       <el-menu-item index="/Home">HOME</el-menu-item>
       <el-submenu index="2">
@@ -33,7 +32,7 @@
         <el-menu-item index="/Java">Java</el-menu-item>
         <el-menu-item index="/Go">Go</el-menu-item>
         <el-menu-item index="/Front-End">Front-End</el-menu-item>
-        <el-menu-item index="/ALGORITHM">ALGORITHM</el-menu-item>
+        <el-menu-item index="/Algorithm-List">ALGORITHM</el-menu-item>
       </el-submenu>
       <el-submenu index="6">
         <template slot="title">READING</template>
@@ -46,9 +45,9 @@
         <el-menu-item index="/KITTENS">KITTENS</el-menu-item>
         <el-menu-item index="/TRAVEL">TRAVEL</el-menu-item>
       </el-submenu>
-      <el-menu-item index="/CONTACT">CONTACT</el-menu-item>
-      </el-menu>
-    </div>
+      <el-menu-item index="/Contact">CONTACT</el-menu-item>
+    </el-menu>
+  </div>
 </template>
 
 <script>
@@ -69,13 +68,12 @@
 
 <style scoped>
   .menu{
-    background-color: black;
-    opacity: 40%;
+    background-color: rgba(0,0,0,0.0);
     display:flex;
     justify-content:center;
-    position: fixed;
+    height: 60px;
     width: 100%;
-    top: 191px;
     left: 0px;
+    margin-top: 191px;
   }
 </style>
