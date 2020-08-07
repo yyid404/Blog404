@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95fed172-99a1-4cb0-8b88-cdfa940c8b60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/template/BGM.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/blog404-client-integrated/static/music/1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/blog404-client-integrated/static/music/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front/blog404-client-integrated/static/music/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/blog404-client-integrated/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/blog404-client-integrated/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/home/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/home/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/reading/Note.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/reading/Note.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/blog404-client-integrated/static/music/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/blog404-client-integrated/static/music/6.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +98,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="465" />
     <option name="width" value="894" />
     <option name="height" value="745" />
@@ -200,7 +194,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596844623299" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596844649880" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../-/example" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -248,12 +242,12 @@
       <workItem from="1596736107460" duration="6388000" />
       <workItem from="1596773729397" duration="5030000" />
       <workItem from="1596785595703" duration="37470000" />
-      <workItem from="1596830136609" duration="3941000" />
+      <workItem from="1596830136609" duration="4050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52829000" />
+    <option name="totallyTimeSpent" value="52938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -275,7 +269,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.52884614" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.52884614" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
