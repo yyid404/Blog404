@@ -75,5 +75,7 @@
     width: 100%;
     left: 0px;
     margin-top: 191px;
+    z-index: 12;
+    position: relative;
   }
 </style>

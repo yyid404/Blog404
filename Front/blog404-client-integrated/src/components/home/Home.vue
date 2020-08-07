@@ -1,23 +1,24 @@
 <template>
   <div class="container">
-    <Banner></Banner>
+    <Cover></Cover>
     <Avatar></Avatar>
-    <div class="body">
-    </div>
+    <NavigationBackgroundColor></NavigationBackgroundColor>
   </div>
 </template>
 
 <script>
-  import Banner from '../template/Banner'
+  import Cover from './Cover'
   import Avatar from './Avatar'
+  import NavigationBackgroundColor from "../template/Navigation-Background-Color";
   import { getThemeByAdminId } from '@/api/theme'
   import { getAdminInfoByAdminId } from '@/api/admin'
 
   export default {
     name: "Home",
     components: {
-      Banner,
+      Cover,
       Avatar,
+      NavigationBackgroundColor,
     },
     created(){
       this.initGlobalTheme()
@@ -42,8 +43,17 @@
 </script>
 
 <style scoped>
-  /*深度选择器*/
-  .container >>> .info {
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-banner-daily-1.jpg");
+  .container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+  }
+
+  /*<NavigationBackgroundColor>内的<background>*/
+  .container >>> .background {
+    background-color: rgba(0,0,0,0.4);
+    margin-top: -60px;
+    z-index: 11;
+    position: relative;
   }
 </style>

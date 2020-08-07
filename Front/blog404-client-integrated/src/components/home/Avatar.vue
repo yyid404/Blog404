@@ -31,17 +31,15 @@
     }
   }
 }
-
 </script>
 
 <style scoped>
   .info{
-    top: 0px;
-    left: 0px;
-    background: rgba(0,0,0,0.3);
     height: 191px;
-    position: fixed;
     width: 100%;
+    background: rgba(0,0,0,0.3);
+    top: 0px;
+    position: fixed;
   }
   .margin-top{
     height: 20px;
