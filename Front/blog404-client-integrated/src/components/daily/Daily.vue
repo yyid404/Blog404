@@ -1,68 +1,47 @@
-<!--<template>
+<template>
   <div class="container">
     <Banner></Banner>
-    <div class="body">
-      <navigation></navigation>
+    <div class="content">
+      <NavigationBackgroundColor></NavigationBackgroundColor>
       <router-view></router-view>
       <Footer></Footer>
     </div>
-  </div>
-</template>-->
-
-
-<template>
-  <div class="content">
-    <el-container>
-      <el-header>
-        <Navigation></Navigation>
-      </el-header>
-      <el-main>
-        <router-view></router-view> <!--路由出口 -->
-      </el-main>
-      <el-footer>
-        <Footer></Footer>
-      </el-footer>
-    </el-container>
   </div>
 </template>
 
 <script>
   import Banner from '../template/Banner'
-  import Navigation from './Navigation'
-  import Content1 from './Content-Kittens'
-  import Content2 from './Content-Journal'
-  import Content3 from './Content-Travel'
   import Footer from '../template/Footer'
+  import NavigationBackgroundColor from '../template/Navigation-Background-Color'
 
   export default {
     name: 'Daily',
     components: {
       Banner,
-      Navigation,
-      Content1,
-      Content2,
-      Content3,
+      NavigationBackgroundColor,
       Footer,
     }
   }
 </script>
-<style scoped>
-  .container{
-    background-color: #f1f5f6;
-  }
 
-  /*深度选择器*/
+<style scoped>
+  /*深度选择器 .info为<Banner>内的<info>*/
   .container >>> .info {
     background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-banner-daily-1.jpg");
   }
 
-  .body{
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-background-daily-3.jpg");
+  .content{
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-background-daily-2.jpg");
     background-size: 450px;
   }
 
-  .body >>> .footer {
-    background-color: #73aec4;
-    color: #f9f177;
+  /*<NavigationBackgroundColor>内的<background> & <Footer>内的<footer>*/
+  .content >>> .background, .content >>> .footer {
+    background-color: rgba(115,174,196,0.7);
+  }
+
+  /*<router-view>内的<content>*/
+  .content >>> .content {
+    background-color: #f1f5f6;
   }
 </style>
