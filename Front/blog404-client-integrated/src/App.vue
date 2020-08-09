@@ -81,7 +81,7 @@
     position: fixed;
     top: 194px;
     right: -12rem;
-    z-index: 13;
+    z-index: 15;
   }
   #app .dis{
     opacity: 30%;/*隐藏背景音乐控件*/

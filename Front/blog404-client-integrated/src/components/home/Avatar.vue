@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="avatar">
-      <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/user/user-avatar-Lemon.jpg" >
+      <img :src="squareUrl" >
     </div>
     <div class="nickname">
       {{admin.nickname}}
@@ -42,7 +42,7 @@
   img{
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 50px;
   }
 
   .nickname{

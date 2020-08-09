@@ -16,6 +16,7 @@
   import { getThemeByAdminId } from '@/api/theme'
   import { getAdminInfoByAdminId } from '@/api/admin'
   import Particles from "../template/Particles";
+  import Loves from "../js/loves";  //鼠标点击爱心漂浮效果
 
   export default {
     name: "Home",
@@ -25,6 +26,7 @@
       Particles,
       Avatar,
       NavigationBackgroundColor,
+      Loves
     },
     created(){
       this.initGlobalTheme()
