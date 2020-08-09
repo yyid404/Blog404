@@ -6,6 +6,7 @@ import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import echarts from "echarts" //引入组件
+import VueParticles from 'vue-particles'
 import '../node_modules/echarts/map/js/world.js' // 引入世界地图
 import '../node_modules/echarts/map/js/province/beijing.js' // 引入北京地图数据
 import '../node_modules/echarts/map/js/province/fujian.js' // 引入福建地图数据
@@ -18,6 +19,7 @@ import hljs from 'highlight.js'
 import 'highlight.js/styles/monokai-sublime.css'
 
 Vue.use(ElementUI)
+Vue.use(VueParticles)
 
 // 引入公共JS
 Vue.config.productionTip = false

@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <Banner></Banner>
+    <Particles></Particles>
     <div class="content">
       <NavigationBackgroundColor></NavigationBackgroundColor>
       <router-view></router-view>
@@ -11,13 +12,15 @@
 
 <script>
   import Banner from '../template/Banner'
-  import Footer from '../template/Footer'
+  import Particles from "../template/Particles";
   import NavigationBackgroundColor from '../template/Navigation-Background-Color'
+  import Footer from '../template/Footer'
 
   export default {
     name: 'Code',
     components: {
       Banner,
+      Particles,
       NavigationBackgroundColor,
       Footer,
     }

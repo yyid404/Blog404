@@ -1,17 +1,8 @@
 <template>
-  <div class="info">
-    <div class="margin-top">
+  <div class="container">
+    <div class="avatar">
+      <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/user/user-avatar-Lemon.jpg" >
     </div>
-    <el-row class="demo-avatar demo-basic">
-      <el-col :span="12">
-        <div class="demo-basic&#45;&#45;circle">
-          <div class="block"><el-avatar shape="square" :size="100" :src="squareUrl"></el-avatar></div>
-          <div class="block" v-for="size in sizeList" :key="size">
-            <el-avatar shape="square" :size="size" :src="squareUrl"></el-avatar>
-          </div>
-        </div>
-      </el-col>
-    </el-row>
     <div class="nickname">
       {{admin.nickname}}
     </div>
@@ -34,20 +25,26 @@
 </script>
 
 <style scoped>
-  .info{
+  .container{
     height: 191px;
-    width: 100%;
-    background: rgba(0,0,0,0.3);
+    width: 7%;
     top: 0px;
+    margin-top: 20px;
+    margin-left: 46.5%;
     position: fixed;
+    z-index: 13;
   }
-  .margin-top{
-    height: 20px;
+
+  .avatar{
+    margin-bottom: 10px;
   }
-  .demo-avatar{
-    width: 100px;
-    margin: 0 auto 10px auto;
+
+  img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
+
   .nickname{
     color: whitesmoke;
     text-align: center;

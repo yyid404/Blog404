@@ -1,7 +1,7 @@
 <template>
-  <div class="info">
-<!--    <vue-particles class="particles"
-                   color="#fff"
+  <div class="particles">
+    <vue-particles class="particles"
+                   color="fff"
                    :particleOpacity="0.7"
                    :particlesNumber="60"
                    shapeType="star"
@@ -17,25 +17,22 @@
                    :clickEffect="true"
                    clickMode="push"
     >
-    </vue-particles>-->
+    </vue-particles>
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'Banner',
-}
+    export default {
+        name: "Particles"
+    }
 </script>
 
 <style scoped>
-  .info{
-    height: 191px;
+  .particles{
+    height: 251px;
     width: 100%;
-    background-size: auto 100%;
-    margin-top: -251px;
+    margin-top: -191px;
+    z-index: 12;
+    position: relative;
   }
-
-/*  .particles{
-    height: 100%;
-  }*/
 </style>

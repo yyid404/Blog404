@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <Banner></Banner>
+    <Particles></Particles>
     <div class="content">
       <NavigationBackgroundColor></NavigationBackgroundColor>
       <Content></Content>
@@ -11,6 +12,7 @@
 
 <script>
   import Banner from '../template/Banner'
+  import Particles from "../template/Particles";
   import NavigationBackgroundColor from '../template/Navigation-Background-Color'
   import Content from './Contact-Content'
   import Footer from '../template/Footer'
@@ -19,6 +21,7 @@
     name: 'Contact',
     components: {
       Banner,
+      Particles,
       NavigationBackgroundColor,
       Content,
       Footer,
