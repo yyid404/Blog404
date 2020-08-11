@@ -1,0 +1,55 @@
+{
+  "status": true,
+  "namemap": {
+    "China": "China",
+    "Japan": "Japan",
+    "United Kingdom": "England",
+    "France": "France",
+    "Germany": "Germany",
+    "Russia": "Russia",
+    "India": "India",
+    "Colombia": "Colombia"
+  },
+  "dataArr": [
+    {
+      "name": "China",
+      "value": 4,
+      "detail": "刘慈欣/三毛/鲁迅/王国维"
+    },
+    {
+      "name": "Japan",
+      "value": 2,
+      "detail": "东野圭吾/太宰治/村上春树"
+    },
+    {
+      "name": "United Kingdom",
+      "value": 5,
+      "detail": "George Orwell/Zygmunt Bauman/William Somerset Maugham/John Ronald Reuel Tolkien/William Shakespeare"
+    },
+    {
+      "name": "France",
+      "value": 2,
+      "detail": "Simonede Beauvior"
+    },
+    {
+      "name": "Germany",
+      "value": 1,
+      "detail": "Hannah Arendt"
+    },
+    {
+      "name": "Russia",
+      "value": 1,
+      "detail": "Лев Николаевич Толстой"
+    },
+    {
+      "name": "India",
+      "value": 1,
+      "detail": "Rabindranath Tagore"
+    },
+    {
+      "name": "Colombia",
+      "value": 1,
+      "detail": "Gabriel José de la Concordia García Márquez"
+    }
+  ]
+}
