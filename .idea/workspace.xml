@@ -2,6 +2,159 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95fed172-99a1-4cb0-8b88-cdfa940c8b60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/.vuepress/enhanceApp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/build/webpack.test.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/config/test.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/public/img/icons/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/public/img/icons/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/public/img/icons/android-chrome-maskable-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/public/img/icons/android-chrome-maskable-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/public/img/icons/apple-touch-icon-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/public/img/icons/apple-touch-icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/public/img/icons/apple-touch-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/public/img/icons/apple-touch-icon-60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/public/img/icons/apple-touch-icon-76x76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/public/img/icons/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/public/img/icons/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/public/img/icons/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/public/img/icons/msapplication-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/public/img/icons/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/public/img/icons/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/api/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/api/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/api/daily.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/api/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/-/Artist1111.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/-/Artist2222.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/-/Artist3333.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/-/Artist6666.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/-/Avatar-11111111111111.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/-/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/-/aaaaaaa.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/code/Algorithm-Detail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/code/Algorithm-List.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/code/Algorithm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/code/Code.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/code/Front-End.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/code/Go.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/code/Java.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/contact/Contact-Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/contact/Contact.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Content-Journal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Content-Kittens.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Content-Travel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Daily.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Journal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Kittens-Avatar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Kittens.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Travel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/home/Avatar-Background-Color.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/home/Avatar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/home/Cover.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/js/loves.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/movie/Director.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/movie/List.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/movie/Movie.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/music/Artist.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/music/Music.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/music/PlayList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/photograph/Album.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/photograph/Favorite.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/photograph/Photograph.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/photograph/Photographer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/photograph/Timeline.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/reading/Author.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/reading/Note.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/reading/Reading.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/BGM.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/Banner.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/Bubble.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/Footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/MiniMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/Navigation-Background-Color.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/Navigation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/Particles.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/utils/RemoteJs.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/ClickHoverEffect1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/ClickHoverEffect2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/ClickHoverEffect3.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/FlowMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/Grid.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/Letter3D.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/images/noise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/plugins/vuetify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/static/cities/110100.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/static/music/1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/static/world-album.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/static/world-all.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/static/world-author.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/static/world-director.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/static/world-photographer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/static/world-singer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/static/world-travel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/test/unit/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/test/unit/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/test/unit/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Blog404.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Blog404.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -146,19 +299,36 @@
               <item name="Blog404-Client-ElementUI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Blog404" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog404" type="462c0819:PsiDirectoryNode" />
+              <item name="Front" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog404-Client-ElementUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog404" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog404" type="462c0819:PsiDirectoryNode" />
+              <item name="Front" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog404-Client-ElementUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="daily" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597153944577" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597154204829" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../-/template/3.列表/er列表+即使图片预览" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -219,16 +389,17 @@
       <workItem from="1597150955521" duration="662000" />
       <workItem from="1597151792102" duration="93000" />
       <workItem from="1597152388413" duration="271000" />
+      <workItem from="1597153784724" duration="269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97637000" />
+    <option name="totallyTimeSpent" value="97906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31042296" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31495467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -245,8 +416,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924472" visible="true" weight="0.52884614" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007553" side_tool="true" visible="true" weight="0.52884614" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49848944" visible="true" weight="0.40064102" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50151056" side_tool="true" visible="true" weight="0.40064102" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -525,6 +696,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Front/blog404-client-integrated/src/components/Index.vue">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Kittens-Avatar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627" />
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
