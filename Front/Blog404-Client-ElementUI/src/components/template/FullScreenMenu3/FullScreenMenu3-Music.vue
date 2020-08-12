@@ -34,6 +34,10 @@
     height: 50vh;
   }
 
+  .ch-info-front:hover > h3{
+    color: #ffcccc;
+  }
+
   .ch-item {
     width: 100%;
     height: 100%;
@@ -140,6 +144,10 @@
       0 0 1px #fff,
       0 1px 2px rgba(0,0,0,0.3);
     text-align: center;
+  }
+
+  .ch-info-back h3{
+    color: #ffcccc;
   }
 
   .ch-info p {
