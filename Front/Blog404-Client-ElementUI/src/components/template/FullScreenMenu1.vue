@@ -62,7 +62,7 @@
 
 <script>
   export default {
-        name: "FullScreenMenu",
+        name: "FullScreenMenu1",
       data: () => ({
         showMenu: false
       })

@@ -89,8 +89,8 @@
   .ch-info-wrap,
   .ch-info{
     position: absolute;
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
 
     -webkit-transition: all 0.4s ease-in-out;

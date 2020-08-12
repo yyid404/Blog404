@@ -4,7 +4,7 @@
       <div class="kittens-info">
         <div class="kitty-info" id="Kitty">
           <div class="kitty-info-avatar">
-            <img class="kitty-info-avatar-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/kittens/kitty-avatar-Kitty.png">
+            <img class="kitty-info-avatar-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/kittens/kitty-avatar-Kitty.jpg">
           </div>
           <div class="kitty-info-data">
             <h6>昵称：眠眠 Kitty</h6>
@@ -16,7 +16,7 @@
         </div>
         <div class="kitty-info" id="Milky">
           <div class="kitty-info-avatar">
-            <img class="kitty-info-avatar-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/kittens/kitty-avatar-Milky.png">
+            <img class="kitty-info-avatar-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/kittens/kitty-avatar-Milky.jpg">
           </div>
           <div class="kitty-info-data">
             <h6>昵称：奶茶 Milky</h6>
@@ -28,7 +28,7 @@
         </div>
         <div class="kitty-info" id="Cheese">
           <div class="kitty-info-avatar">
-            <img class="kitty-info-avatar-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/kittens/kitty-avatar-Cheese.png">
+            <img class="kitty-info-avatar-img" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/kittens/kitty-avatar-Cheese.jpg">
           </div>
           <div class="kitty-info-data">
             <h6>昵称：知世 Cheese</h6>

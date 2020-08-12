@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <!--迷你导航栏-->
-    <FullScreenMenu></FullScreenMenu>
+    <FullScreenMenu3></FullScreenMenu3>
     <!--导航栏-->
     <Navigation></Navigation>
     <div class="content">
@@ -13,12 +13,12 @@
 
 <script>
   import Navigation from './template/Navigation'
-  import FullScreenMenu from "./template/FullScreenMenu";
+  import FullScreenMenu3 from "./template/FullScreenMenu3/FullScreenMenu3";
 
   export default {
     name: 'Index',
     components: {
-      FullScreenMenu,
+      FullScreenMenu3,
       Navigation
     },
   }
