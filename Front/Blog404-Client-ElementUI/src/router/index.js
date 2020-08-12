@@ -106,8 +106,15 @@ export default new Router({
           children:[
             {
               path: '/',
-              name: 'Algorithm-List',
-              component: () => import('../components/code/Algorithm-List.vue'),
+              name: 'Algorithm',
+              component: () => import('../components/code/Algorithm.vue'),
+              children:[
+                {
+                  path: '/',
+                  name: 'Algorithm-List',
+                  component: () => import('../components/code/Algorithm-List.vue'),
+                },
+              ]
             },
             {
               path: '/Java',

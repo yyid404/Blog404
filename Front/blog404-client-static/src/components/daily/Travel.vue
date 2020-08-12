@@ -257,7 +257,7 @@
 -->
               <p class="destination-name">马丘比丘</p>
               <p class="destination-englishname">Machu Picchu</p>
-              <p class="destination-description">世界新七大奇迹，草泥马天堂</p>
+              <p class="destination-description">世界新七大奇迹，神兽天堂</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/travel/travel-Vrah%20Vishnulok-1.jpg">
@@ -572,7 +572,7 @@
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/travel/travel-Grand%20Central%20Terminal-3.jpg">
               <p class="destination-name">纽约中央车站</p>
               <p class="destination-englishname">Grand Central Terminal</p>
-              <p class="destination-description">Gossip Here, 故事从这里开始。</p>
+              <p class="destination-description">Gossip Girl, 故事从这里开始。</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/travel/travel-SunsetBoulevard-5.jpg">
@@ -691,7 +691,7 @@
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/travel/travel-Sahara%20Desert-1.jpg">
               <p class="destination-name">撒哈拉沙漠</p>
               <p class="destination-englishname">Sahara Desert</p>
-              <p class="destination-description">听Born Free，读三毛。</p>
+              <p class="destination-description">听Born Free，读哭泣的骆驼。</p>
             </div>
             <div class="destination">
               <img src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/travel/travel-Lugu%20Lake-1.jpg">

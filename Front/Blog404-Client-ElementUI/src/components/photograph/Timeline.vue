@@ -9,12 +9,12 @@
             <img class="timeline-pic" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-13.jpg">
             <img class="timeline-pic" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-12.jpg">
             <img class="timeline-pic" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-14.jpg">
-            <p>UPDATE album/<a href="Album.vue">Wuhan</a>, Commit by Lemon 2020/6/16 20:46</p>
+            <p>UPDATE album/<a href="Album">Wuhan</a>, Commit by Lemon 2020/6/16 20:46</p>
             <el-divider></el-divider>
             <h4>影</h4>
             <img class="timeline-pic" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-10.jpg">
             <img class="timeline-pic" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-11.jpg">
-            <p>UPDATE album/<a href="Album.vue">Wuhan</a>, Commit by Lemon 2020/6/16 19:46</p>
+            <p>UPDATE album/<a href="Album">Wuhan</a>, Commit by Lemon 2020/6/16 19:46</p>
             <el-divider></el-divider>
           </el-timeline-item>
           <el-timeline-item timestamp="2020/6/15" placement="top">
@@ -22,7 +22,7 @@
             <img class="timeline-pic" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-1.jpg">
             <img class="timeline-pic" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-2.jpg">
             <img class="timeline-pic" src="https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/photograph/photograph-Lemon-3.jpg">
-            <p>UPDATE album/<a href="Album.vue">Shanghai</a>, Commit by Lemon 2020/6/15 20:46</p>
+            <p>UPDATE album/<a href="Album">Shanghai</a>, Commit by Lemon 2020/6/15 20:46</p>
             <el-divider></el-divider>
           </el-timeline-item>
         </el-timeline>
