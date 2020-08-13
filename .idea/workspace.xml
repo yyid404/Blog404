@@ -3,22 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="95fed172-99a1-4cb0-8b88-cdfa940c8b60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/contact/Contact-Content.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/contact/Contact-Content.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Contact.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Contact.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Daily.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Daily.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Movie.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Movie.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Music.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Music.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Photograph.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Photograph.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Reading.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Reading.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/blog404_admin.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/blog404_area.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/blog404_area.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/blog404_theme.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/blog404_theme.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/blog404_travel_destination.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/blog404_travel_destination.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/blog404_travel_journal.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/docs/Blog404.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/docs/Blog404.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/docs/前端 - 前台博客页面.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/docs/前端 - 前台博客页面.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/docs/前端 - 后台管理系统.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/docs/前端 - 后台管理系统.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +15,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="152">
+                <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/view/js/demo.js" />
         <option value="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/view/MultiboxMenu.vue" />
         <option value="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/home/Home.vue" />
         <option value="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/view/AAA.vue" />
@@ -132,6 +132,7 @@
         <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Music.vue" />
         <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Movie.vue" />
         <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Home.vue" />
+        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/README.md" />
       </list>
     </option>
   </component>
@@ -219,7 +220,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597292165512" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597301913156" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../-/template/3.列表/er列表+即使图片预览" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -281,15 +282,16 @@
       <workItem from="1597151792102" duration="93000" />
       <workItem from="1597152388413" duration="271000" />
       <workItem from="1597153784724" duration="35517000" />
-      <workItem from="1597221794792" duration="8073000" />
+      <workItem from="1597221794792" duration="8899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141227000" />
+    <option name="totallyTimeSpent" value="142053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27416918" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -308,7 +310,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848944" weight="0.40064102" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848944" visible="true" weight="0.40064102" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50151056" side_tool="true" weight="0.40064102" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -326,13 +328,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/ClickHoverEffect4.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/ClickHoverEffect3.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -614,6 +609,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="46" column="14" selection-start-line="46" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
