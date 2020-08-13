@@ -35,8 +35,9 @@ Vue.directive('highlight',function (el) {
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  //在Vue实例中注册router
   router,
-  // 在Vue实例中注册router
+  //将Vue实例进行关联，将其传入
   components: { App },
   template: '<App/>'
 })
