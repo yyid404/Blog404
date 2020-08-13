@@ -37,7 +37,7 @@
               <el-input type="textarea" v-model="contactInfo.sina"></el-input>
             </el-form-item>
             <el-form-item>
-              <el-button type="primary" id="submit" @click="onSubmit">Submit</el-button>
+              <el-button type="primary" id="send" @click="onSubmit">Send</el-button>
             </el-form-item>
           </el-form>
         </el-col>
@@ -155,7 +155,7 @@
     background-color: #e3eff3;
   }
 
-  /*  #submit{
+  /*  #send{
       margin-left: 40%;
     }*/
 </style>

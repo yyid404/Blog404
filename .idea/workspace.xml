@@ -3,18 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="95fed172-99a1-4cb0-8b88-cdfa940c8b60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Content-Journal.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Content-Kittens.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Content-Travel.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Travel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Travel.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/photograph/Timeline.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/photograph/Timeline.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/daily/Content-Travel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/daily/Content-Travel.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/daily/Travel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/daily/Travel.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/photograph/Timeline.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/photograph/Timeline.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/blog404-client-static/src/components/daily/Travel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/blog404-client-static/src/components/daily/Travel.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/blog404-client-temp/src/components/daily/Travel-Content.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/blog404-client-temp/src/components/daily/Travel-Content.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/blog404_travel_destination.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/database/blog404_travel_destination.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/contact/Contact-Content.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/contact/Contact-Content.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Contact.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Contact.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Daily.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Daily.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Movie.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Movie.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Music.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Music.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Photograph.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Photograph.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Reading.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Reading.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/blog404_admin.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/blog404_area.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/blog404_area.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/blog404_theme.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/blog404_theme.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/blog404_travel_destination.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/blog404_travel_destination.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/blog404_travel_journal.xlsx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,22 +27,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/music/PlayList.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/photograph/Album.vue">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,7 +40,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>-view</find>
       <find>content-icon</find>
       <find>content</find>
       <find>class=&quot;bg</find>
@@ -81,6 +69,7 @@
       <find>Gossip</find>
       <find>草</find>
       <find>Born</find>
+      <find>8080</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -92,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/view/js/TweenMax.min.js" />
         <option value="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/view/js/demo.js" />
         <option value="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/view/MultiboxMenu.vue" />
         <option value="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/home/Home.vue" />
@@ -126,13 +114,6 @@
         <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/Index.vue" />
         <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/MiniMenu.vue" />
         <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3.vue" />
-        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Contact.vue" />
-        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Daily.vue" />
-        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Home.vue" />
-        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Movie.vue" />
-        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Reading.vue" />
-        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Photograph.vue" />
-        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Music.vue" />
         <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Code.vue" />
         <option value="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/daily/Travel.vue" />
         <option value="$PROJECT_DIR$/Front/blog404-client-temp/src/components/daily/Travel-Content.vue" />
@@ -143,6 +124,14 @@
         <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/router/index.js" />
         <option value="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/photograph/Timeline.vue" />
         <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/photograph/Timeline.vue" />
+        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/contact/Contact-Content.vue" />
+        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Contact.vue" />
+        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Daily.vue" />
+        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Reading.vue" />
+        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Photograph.vue" />
+        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Music.vue" />
+        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Movie.vue" />
+        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Home.vue" />
       </list>
     </option>
   </component>
@@ -154,7 +143,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="894" />
@@ -207,7 +196,18 @@
               <item name="Front" type="462c0819:PsiDirectoryNode" />
               <item name="Blog404-Client-ElementUI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog404" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog404" type="462c0819:PsiDirectoryNode" />
+              <item name="Front" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog404-Client-ElementUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="FullScreenMenu3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,7 +219,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597225702608" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597291814013" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../-/template/3.列表/er列表+即使图片预览" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -281,15 +281,15 @@
       <workItem from="1597151792102" duration="93000" />
       <workItem from="1597152388413" duration="271000" />
       <workItem from="1597153784724" duration="35517000" />
-      <workItem from="1597221794792" duration="2709000" />
+      <workItem from="1597221794792" duration="8073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135863000" />
+    <option name="totallyTimeSpent" value="141227000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27416918" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -326,75 +326,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Front/blog404-client-integrated/src/components/view/js/anime.min.js" />
-    <entry file="file://$PROJECT_DIR$/Front/blog404-client-integrated/src/components/view/Letter3D.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1007">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/blog404-client-integrated/src/components/home/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="31" />
-          <folding>
-            <element signature="e#272#299#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/blog404-client-integrated/src/components/music/Music.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/blog404-client-integrated/src/components/js/imagesloaded.pkgd.min.js" />
-    <entry file="file://$PROJECT_DIR$/Front/blog404-client-integrated/src/components/js/anime.min.js" />
-    <entry file="file://$PROJECT_DIR$/Front/blog404-client-integrated/src/components/js/demo3.js" />
-    <entry file="file://$PROJECT_DIR$/Front/blog404-client-integrated/src/components/view/Grid.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="163" column="5" lean-forward="true" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
-          <folding>
-            <element signature="e#255#297#0" expanded="true" />
-            <element signature="e#394#436#0" expanded="true" />
-            <element signature="e#807#849#0" expanded="true" />
-            <element signature="e#1221#1263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/blog404-client-integrated/src/components/view/FlowMenu.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/blog404-client-integrated/src/components/view/ListPreview.vue" />
-    <entry file="file://$PROJECT_DIR$/Front/blog404-client-integrated/src/components/music/PlayList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/blog404-client-integrated/src/components/Index.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/ClickHoverEffect2.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="76" column="17" lean-forward="true" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/ClickHoverEffect4.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -424,84 +355,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/Index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="e#259#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/MiniMenu.vue" />
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="46" column="14" selection-start-line="46" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu1.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3534">
           <caret line="198" selection-start-line="198" selection-end-line="201" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Contact.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Daily.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Movie.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Reading.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Photograph.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Music.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Code.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -527,16 +385,6 @@
         <state relative-caret-position="-342" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="120" column="27" lean-forward="true" selection-start-line="120" selection-start-column="27" selection-end-line="120" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Content-Journal.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -557,11 +405,6 @@
         <state>
           <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/contact/Contact-Content.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-268" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Kittens.vue">
@@ -594,14 +437,34 @@
     <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Journal.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/js/loves.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/movie/Director.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/music/Music.vue">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/photograph/Album.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/contact/Contact-Content.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/api/contact.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/home/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="e#252#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/music/PlayList.vue">
       <provider selected="true" editor-type-id="text-editor">
@@ -610,8 +473,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/photograph/Album.vue">
+    <entry file="file://$PROJECT_DIR$/Front/blog404-client-temp/src/utils/request.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/api/admin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="120" column="27" lean-forward="true" selection-start-line="120" selection-start-column="27" selection-end-line="120" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/js/loves.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="e#278#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/config/dev.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/build/webpack.prod.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2166" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/config/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/utils/RemoteJs.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/utils/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Daily.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Contact.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Photograph.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Music.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Movie.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Code.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="64" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Reading.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="46" column="14" selection-start-line="46" selection-end-line="47" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

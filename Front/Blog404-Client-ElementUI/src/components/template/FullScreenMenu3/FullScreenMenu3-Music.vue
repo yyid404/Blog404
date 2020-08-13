@@ -1,6 +1,6 @@
 <template>
   <transition name="grid">
-    <div class="container">
+    <div class="container" onclick="window.open('Music','_self')">
       <div class="ch-item ch-img">
         <div class="ch-info-wrap">
           <div class="ch-info">
