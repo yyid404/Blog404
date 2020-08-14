@@ -76,14 +76,15 @@
     border: hidden;
     position: absolute;
   }
-  /* 背景音乐 ：一定要加z-index ：-10000，否则点击页面时容易勿点暂停或者播放*/
+  /* 背景音乐 */
   #app .music{
     position: fixed;
     top: 194px;
     right: -12rem;
     z-index: 15;
   }
+  /* 隐藏背景音乐控件 */
   #app .dis{
-    opacity: 30%;/*隐藏背景音乐控件*/
+    opacity: 30%;
   }
 </style>
