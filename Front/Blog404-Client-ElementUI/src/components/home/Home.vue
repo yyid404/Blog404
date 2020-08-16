@@ -5,6 +5,7 @@
     <AvatarBackgroundColor></AvatarBackgroundColor>
     <Avatar></Avatar>
     <NavigationBackgroundColor></NavigationBackgroundColor>
+    <Keywords></Keywords>
   </div>
 </template>
 
@@ -16,11 +17,13 @@
   import { getThemeByAdminId } from '@/api/theme'
   import { getAdminInfoByAdminId } from '@/api/admin'
   import Particles from "../template/Particles";
-  import Loves from "../js/loves";  //鼠标点击爱心漂浮效果
+  import Loves from "../js/loves";
+  import Keywords from "./Keywords";  //鼠标点击爱心漂浮效果
 
   export default {
     name: "Home",
     components: {
+      Keywords,
       AvatarBackgroundColor,
       Cover,
       Particles,

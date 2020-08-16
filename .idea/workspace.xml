@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95fed172-99a1-4cb0-8b88-cdfa940c8b60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/home/Keywords.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/docs/前端 - 前台博客页面.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/docs/前端 - 前台博客页面.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/home/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/home/Home.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,20 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Kittens.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-              <folding>
-                <element signature="e#8113#8142#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,13 +27,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>src=</find>
-      <find>loves.js</find>
-      <find>loves</find>
-      <find>ot-letter-left</find>
-      <find>document</find>
-      <find>ev-emitter</find>
-      <find>content-1</find>
       <find>init()</find>
       <find>border-radius</find>
       <find>ch-info-wrap</find>
@@ -53,7 +34,6 @@
       <find>22</find>
       <find>21</find>
       <find>20</find>
-      <find>5px</find>
       <find>inset</find>
       <find>fixed</find>
       <find>li</find>
@@ -69,6 +49,14 @@
       <find>Router</find>
       <find>Vue.use</find>
       <find>overflow</find>
+      <find>jose</find>
+      <find>babel-loader</find>
+      <find>babel</find>
+      <find>110px</find>
+      <find>10px</find>
+      <find>5px</find>
+      <find>Jose</find>
+      <find>padding</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -80,8 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/view/AAA.vue" />
-        <option value="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/view/Grid.vue" />
         <option value="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/view/List.vue" />
         <option value="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/view/ListPreview.vue" />
         <option value="$PROJECT_DIR$/Front/blog404-client-integrated/src/components/music/PlayList.vue" />
@@ -129,8 +115,10 @@
         <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu3/FullScreenMenu3-Home.vue" />
         <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/README.md" />
         <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/main.js" />
-        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/movie/List.vue" />
         <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/App.vue" />
+        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/movie/List.vue" />
+        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/home/Home.vue" />
+        <option value="$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/home/Keywords.vue" />
       </list>
     </option>
   </component>
@@ -154,6 +142,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,7 +184,16 @@
               <item name="Blog404-Client-ElementUI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="daily" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog404" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog404" type="462c0819:PsiDirectoryNode" />
+              <item name="Front" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog404-Client-ElementUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Blog404" type="b2602c69:ProjectViewProjectNode" />
@@ -216,15 +215,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597415199850" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597569154133" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../-/template/3.列表/er列表+即使图片预览" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -287,18 +284,18 @@
       <workItem from="1597152388413" duration="271000" />
       <workItem from="1597153784724" duration="35517000" />
       <workItem from="1597221794792" duration="10905000" />
-      <workItem from="1597323277336" duration="12810000" />
+      <workItem from="1597323277336" duration="14653000" />
+      <workItem from="1597561191950" duration="7889000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156869000" />
+    <option name="totallyTimeSpent" value="166601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2779456" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28172207" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -315,7 +312,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848944" weight="0.40064102" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49848944" visible="true" weight="0.40064102" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50151056" side_tool="true" weight="0.40064102" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -333,27 +330,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu2.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="86" column="38" selection-start-line="86" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/MiniMenu.vue" />
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/template/FullScreenMenu1.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3534">
-          <caret line="198" selection-start-line="198" selection-end-line="201" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/blog404_travel_destination.sql" />
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/code/Code.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/code/Algorithm-List.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-399" />
@@ -371,13 +347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Kittens-Avatar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -513,16 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/home/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="29" />
-          <folding>
-            <element signature="e#252#279#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/contact/Contact.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -588,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/movie/List.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/movie/Director.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -614,10 +566,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Kittens.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="147">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
           <folding>
             <element signature="e#8113#8142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/Letter3D.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/ClickHoverEffect2.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="223" column="3" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="223" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/view/ClickHoverEffect4.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="182" lean-forward="true" selection-start-line="38" selection-start-column="2" selection-end-line="182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/home/Cover.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="27" selection-start-line="27" selection-end-line="31" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/movie/List.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/daily/Kittens-Avatar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="34" column="8" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="34" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/home/Keywords.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="178" column="14" selection-start-line="178" selection-start-column="14" selection-end-line="178" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Front/Blog404-Client-ElementUI/src/components/home/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-791">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#266#293#0" expanded="true" />
           </folding>
         </state>
       </provider>
