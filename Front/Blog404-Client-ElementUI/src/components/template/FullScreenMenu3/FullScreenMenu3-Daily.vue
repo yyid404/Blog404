@@ -11,6 +11,7 @@
               <h3>Daily</h3>
               <p>
                 <a class="menu-link" href="Journal">Journal</a> /
+                <a class="menu-link" href="He">He</a> /
                 <a class="menu-link" href="Kittens">Kittens</a> /
                 <a class="menu-link" href="Travel">Travel</a>
                 <a class="view-more" href="Daily">View more</a>

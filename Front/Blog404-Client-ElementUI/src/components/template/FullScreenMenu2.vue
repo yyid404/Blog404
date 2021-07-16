@@ -84,7 +84,7 @@
                 </div>
                 <div class="ch-info-back">
                   <h3>DAILY</h3>
-                  <p>Journal / Kittens / Travel <a href="DAILY">View more</a></p>
+                  <p>Journal / He / Kittens / Travel <a href="DAILY">View more</a></p>
                 </div>
               </div>
             </div>

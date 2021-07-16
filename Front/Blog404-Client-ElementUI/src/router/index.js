@@ -193,6 +193,11 @@ export default new Router({
               component: () => import('../components/daily/Journal.vue'),
             },
             {
+              path: '/He',
+              name: 'He',
+              component: () => import('../components/daily/He.vue'),
+            },
+            {
               path: '/Kittens',
               name: 'Kittens',
               component: () => import('../components/daily/Kittens.vue'),

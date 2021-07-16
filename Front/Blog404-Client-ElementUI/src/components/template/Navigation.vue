@@ -42,6 +42,7 @@
       <el-submenu index="7">
         <template slot="title">DAILY</template>
         <el-menu-item index="/JOURNAL">JOURNAL</el-menu-item>
+        <el-menu-item index="/HE">HE</el-menu-item>
         <el-menu-item index="/KITTENS">KITTENS</el-menu-item>
         <el-menu-item index="/TRAVEL">TRAVEL</el-menu-item>
       </el-submenu>

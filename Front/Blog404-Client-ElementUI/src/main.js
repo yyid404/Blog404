@@ -24,6 +24,7 @@ Vue.use(VueParticles)
 // 引入公共JS
 Vue.config.productionTip = false
 Vue.prototype.$echarts = echarts
+
 //自定义指令
 Vue.directive('highlight',function (el) {
   let blocks = el.querySelectorAll('pre code');

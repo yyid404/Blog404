@@ -32,11 +32,11 @@
 <style scoped>
   /*<Banner>内的<info>*/
   .container >>> .info {
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-banner-daily-1.jpg");
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-banner-contact-1.jpg");
   }
 
   .content{
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-background-daily-3.jpg");
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-background-contact-2.jpg");
     background-size: 450px;
   }
 

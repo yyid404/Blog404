@@ -30,11 +30,11 @@
 <style scoped>
   /*深度选择器 .info为<Banner>内的<info>*/
   .container >>> .info {
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-banner-daily-1.jpg");
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-banner-daily-3.jpg");
   }
 
   .content{
-    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-background-daily-2.jpg");
+    background-image: url("https://myblog-pics.oss-cn-shenzhen.aliyuncs.com/background/theme-background-daily-1.jpg");
     background-size: 450px;
   }
 
